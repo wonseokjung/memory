@@ -1,5 +1,5 @@
 ---
-id: BP-2026-8626
+id: BP-2026-9039
 title: "Sample Pack / Combat AI"
 type: "Training Program (The Construct)"
 category: "10_Wiki/🚀 Skills/The_Construct"
