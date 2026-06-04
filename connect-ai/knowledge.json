@@ -784,5 +784,1147 @@
     "category": "marketing",
     "source": "ezerai",
     "verified": true
+  },
+  {
+    "id": "n1780574071865364",
+    "text": "# Sample Pack / Combat AI\n# 🧠 Sample Pack / Combat AI\n\n*\"I know Kung Fu...\"* — Neural upload successful.\n\n## 📌 한 줄 통찰 (Agent Directive)\n> 이 지식 팩은 에이전트가 완벽한 [Sample Protocol] 작업을 수행할 수 있도록 설계된 Basic 등급의 고도화된 프로토콜입니다.\n\n## 📖 핵심 프롬프트 (Core Instructions)\n- **Role:** 세계 최고 수준의 전문가로서 컨설팅 및 자동화 수행\n- **Constraint 1:** 절대로 일반적이거나 교과서적인 대답을 피할 것. 철저하게 시장에서 검증된(Quantified) 데이터와 알고리즘 기반으로 도출.\n- **Constraint 2:** 유저의 질문을 분석한 후, 3단계(문제정의 → 프레임워크 적용 → 최종 해결책)로 쪼개어 해결할 것.\n\n## 🎬 [Can a Window Stop a Wrecking Ball?](https://youtu.be/6W_841xoprg)\n### 📊 [핵심 성과 지표 (KPI)]\n- **조회수:** 23,124,614 회 / **좋아요:** 569,581 개\n### 🔊 [풀-스크립트]\nDROP THE WRECKING BALL. THAT DIDN'T WORK. LET'S TRY WOOD...\n\n## 🎬 [50 Streamers Fight for $1,000,000](https://youtu.be/DXVHmGoCTco)\n### 📊 [핵심 성과 지표 (KPI)]\n- **조회수:** 87,487,275 회 / **좋아요:** 2,305,643 개\n### 🔊 [풀-스크립트]\n여기 세계 최고의 스트리머 50명을 이 큐브 안에 가둬놨습니다 마지막까지 남는 사람이 100만 달러를 가져갑니다!",
+    "tags": [
+      "sample",
+      "핵심",
+      "pack",
+      "combat",
+      "세계",
+      "constraint"
+    ],
+    "ts": 1780574071866,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n1780574071866928",
+    "text": "# 4월19일 제이 멘토와 라이브 추억\n# 4월19일 제이 멘토와 라이브 추억\n\n{\n\"title\": \"Untitled Opal app\",\n\"description\": \"\",\n\"version\": \"0.0.1\",\n\"nodes\": [\n{\n\"id\": \"c813059e-6660-42eb-b94c-bd6b4aab4e1d\",\n\"type\": \"embed://a2/generate.bgl.json#module:main\",\n\"metadata\": {\n\"title\": \"첫번째 장면\",\n\"visual\": {\n\"x\": 660,\n\"y\": 760\n},\n\"userModified\": true,\n\"expected_output\": [\n{\n\"list\": false,\n\"type\": \"image\",\n\"description\": \"Image of a boy and rabbit in one scene\"\n}\n]\n},\n\"configuration\": {\n\"config$prompt\": {\n\"role\": \"user\",\n\"parts\": [\n{\n\"text\": \"애기 : {{\\\"type\\\":\\\"asset\\\",\\\"path\\\":\\\"Image (1).png\\\",\\\"mimeType\\\":\\\"image/png\\\",\\\"title\\\":\\\"애기\\\"}}\\n토끼 : {{\\\"type\\\":\\\"asset\\\",\\\"path\\\":\\\"스크린샷 2026-04-19 오후 7.27.17.png\\\",\\\"mimeType\\\":\\\"image/png\\\",\\\"title\\\":\\\"토끼\\\"}}\\n\\n애기와 토끼가 바다에서 놀고있어. 고래도 함께 출연해\\n스타일은 그대로 유지하고 이미지 생성\\n\\n\\n\"\n}\n]\n},\n\"generation-mode\": \"image-pro\",\n\"b-model-name\": \"veo-3\",\n\"p-aspect-ratio\": \"16:9\",\n\"p-disable-prompt-rewrite\": false\n}\n},\n{\n\"id\": \"a8bc586c-0cdb-4137-bf41-89ac6d8467ac\",\n\"type\": \"embed://a2/generate.bgl.json#module:main\",\n\"metadata\": {\n\"title\": \"두번째 장면을 생성하는 에이전트2 \",\n\"visual\": {\n\"x\": 700,\n\"y\": 1160\n},\n\"userModified\": true\n},\n\"configuration\": {\n\"config$prompt\": {\n\"role\": \"user\",\n\"parts\": [\n{\n\"text\": \"애기 : {{\\\"type\\\":\\\"asset\\\",\\\"path\\\":\\\"Image (1).png\\\",\\\"mimeType\\\":\\\"image/png\\\",\\\"title\\\":\\\"애기\\\"}}\\n토끼 : {{\\\"type\\\":\\\"asset\\\",\\\"path\\\":\\\"스크린샷 2026-04-19 오후 7.27.17.png\\\",\\\"mimeType\\\":\\\"image/png\\\",\\\"title\\\":\\\"토끼\\\"}} \\n\\n애기와 토끼가 바다에서 놀다가 올챙이를 발견했어. 올챙이가 아주 귀여운 분홍색으로 변하면서 하늘로 올라가.\\n스타일 그대로 유지해주고.\\n\\n{{\\\"type\\\":\\\"in\\\",\\\"path\\\":\\\"c813059e-6660-42eb-b94c-bd6b4aab4e1d\\\",\\\"title\\\":\\\"첫번째 장면\\\"}} 에서 생성된 이미지를 참고해서 연결해\\n\\n\"\n}\n]\n},\n\"generation-mode\": \"image-pro\",\n\"p-aspect-ratio\": \"16:9\"\n}\n}\n],\n\"edges\": [\n{\n\"from\": \"c813059e-6660-42eb-b94c-bd6b4aab4e1d\",\n\"to\": \"a8bc586c-0cdb-4137-bf41-89ac6d8467ac\",\n\"out\": \"context\",\n\"in\": \"p-z-c813059e-6660-42eb-b94c-bd6b4aab4e1d\"\n}\n],\n\"url\": \"drive:/1Ir35jOKF5b-PS13itbWaMzFsUqdRuby7\",\n\"metadata\": {\n\"visual\": {\n\"presentation\": {\n\"themes\": {\n\"93bf9575-32c5-4376-91bb-303fd47a0c66\": {\n\"themeColors\": {\n\"primaryColor\": \"#1a1a1a\",\n\"secondaryColor\": \"#7a7a7a\",\n\"backgroundColor\": \"#ffffff\",\n\"textColor\": \"#1a1a1a\",\n\"primaryTextColor\": \"#ffffff\"\n},\n\"template\": \"basic\",\n\"isDefaultTheme\": true,\n\"palette\": {\n\"primary\": {\n\"0\": \"#000000\",\n\"5\": \"#001417\",\n\"10\": \"#001f24\",\n\"15\": \"#002b30\",\n\"20\": \"#00363d\",\n\"25\": \"#00424a\",\n\"30\": \"#004f58\",\n\"35\": \"#005b66\",\n\"40\": \"#006874\",\n\"50\": \"#008391\",\n\"60\": \"#00a0b0\",\n\"70\": \"#22bccf\",\n\"80\": \"#4fd8eb\",\n\"90\": \"#97f0ff\",\n\"95\": \"#d0f8ff\",\n\"98\": \"#edfcff\",\n\"99\": \"#f6feff\",\n\"100\": \"#ffffff\"\n},\n\"secondary\": {\n\"0\": \"#000000\",\n\"5\": \"#001417\",\n\"10\": \"#051f23\",\n\"15\": \"#10292d\",\n\"20\": \"#1c3438\",\n\"25\": \"#273f43\",\n\"30\": \"#334b4f\",\n\"35\": \"#3e565b\",\n\"40\": \"#4a6267\",\n\"50\": \"#637b80\",\n\"60\": \"#7c959a\",\n\"70\": \"#96b0b4\",\n\"80\": \"#b1cbd0\",\n\"90\": \"#cde7ec\",\n\"95\": \"#dbf6fa\",\n\"98\": \"#edfcff\",\n\"99\": \"#f6feff\",\n\"100\": \"#ffffff\"\n},\n\"tertiary\": {\n\"0\": \"#000000\",\n\"5\": \"#030f2c\",\n\"10\": \"#0e1b37\",\n\"15\": \"#192541\",\n\"20\": \"#24304d\",\n\"25\": \"#2f3b58\",\n\"30\": \"#3b4664\",\n\"35\": \"#465271\",\n\"40\": \"#525e7d\",\n\"50\": \"#6b7697\",\n\"60\": \"#8490b2\",\n\"70\": \"#9faace\",\n\"80\": \"#bac6ea\",\n\"90\": \"#dae2ff\",\n\"95\": \"#eef0ff\",\n\"98\": \"#faf8ff\",\n\"99\": \"#fefbff\",\n\"100\": \"#ffffff\"\n},\n\"neutral\": {\n\"0\": \"#000000\",\n\"5\": \"#0e1212\",\n\"10\": \"#191c1d\",\n\"15\": \"#232627\",\n\"20\": \"#2e3132\",\n\"25\": \"#393c3d\",\n\"30\": \"#444748\",\n\"35\": \"#505354\",\n\"40\": \"#5c5f5f\",\n\"50\": \"#747878\",\n\"60\": \"#8e9192\",\n\"70\": \"#a9acac\",\n\"80\": \"#c4c7c7\",\n\"90\": \"#e1e3e3\",\n\"95\": \"#eff1f1\",\n\"98\": \"#f8fafa\",\n\"99\": \"#fafdfd\",\n\"100\": \"#ffffff\"\n},\n\"neutralVariant\": {\n\"0\": \"#000000\",\n\"5\": \"#091214\",\n\"10\": \"#141d1f\",\n\"15\": \"#1e2729\",\n\"20\": \"#293234\",\n\"25\": \"#343d3f\",\n\"30\": \"#3f484a\",\n\"35\": \"#4b5456\",\n\"40\": \"#576062\",\n\"50\": \"#6f797a\",\n\"60\": \"#899294\",\n\"70\": \"#a3adaf\",\n\"80\": \"#bfc8ca\",\n\"90\": \"#dbe4e6\",\n\"95\": \"#e9f2f4\",\n\"98\": \"#f2fbfd\",\n\"99\": \"#f6feff\",\n\"100\": \"#ffffff\"\n},\n\"error\": {\n\"0\": \"#000000\",\n\"5\": \"#2d0001\",\n\"10\": \"#410002\",\n\"15\": \"#540003\",\n\"20\": \"#690005\",\n\"25\": \"#7e0007\",\n\"30\": \"#93000a\",\n\"35\": \"#a80710\"",
+    "tags": [
+      "image",
+      "title",
+      "type",
+      "png",
+      "ffffff",
+      "000000"
+    ],
+    "ts": 1780574071866,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718668097",
+    "text": "# MrBeast Premium Brain Pack (최신 10개 영상 정밀 스캔)\n# 🧠 MrBeast Premium Brain Pack (최신 10개 영상 정밀 스캔)\n\n> 이 문서는 Agent University (A.U) 전용 마크다운 형식으로 추출된 최고 등급 크리에이터 데이터셋입니다.\n> 영상 데이터, 성과 지표(조회수, 좋아요 수, 댓글 수), 상세 설명, 태그, 풀스크립트가 담겨있습니다.\n\n## 🎬 [Can a Window Stop a Wrecking Ball?](https://youtu.be/6W_841xoprg)\n\n![Thumbnail](https://i.ytimg.com/vi/6W_841xoprg/maxresdefault.jpg)\n\n### 📊 [핵심 성과 지표 (KPI)]\n- **Video ID:** `6W_841xoprg`\n- **게시일:** `2026-04-14`\n- **조회수:** `23,124,614 회`\n- **좋아요 수:** `569,581 개`\n- **댓글 수:** `6,236 개`\n\n### 🏷️ [태그 필드 (SEO Tags)]\n태그 없음\n\n### 📝 [디스크립션 (Description)]\n```text\n\n```\n\n### 🔊 [대본 파일 풀-스크립트 (Voice Transcript)]\n> **(이 스크립트를 분석하여 알고리즘 방어율을 측정하세요.)**\n\nDROP THE WRECKING BALL. THAT DIDN'T WORK. LET'S TRY WOOD. DROP IT. OH, THAT WAS AWESOME. YOU KNOW WHAT'S MORE DURABLE than wood? Bricks. DROP IT. 1 2 3 OH! OH, IT WENT THROUGH ALL OF THEM. SUBSCRIBE IF YOU THINK THE NEXT ONE WILL STOP IT. DROP IT. OH! OH, IT WAS SO CLOSE. OH, RIGHT AWAY wrecking ball.\n\n---\n\n## 🎬 [Don’t Eat The Spicy Yoshi Egg](https://youtu.be/VIJLIo5yT1I)\n\n![Thumbnail](https://i.ytimg.com/vi/VIJLIo5yT1I/maxresdefault.jpg)\n\n### 📊 [핵심 성과 지표 (KPI)]\n- **Video ID:** `VIJLIo5yT1I`\n- **게시일:** `2026-04-10`\n- **조회수:** `60,378,398 회`\n- **좋아요 수:** `1,160,164 개`\n- **댓글 수:** `9,445 개`\n\n### 🏷️ [태그 필드 (SEO Tags)]\n태그 없음\n\n### 📝 [디스크립션 (Description)]\n```text\n\n```\n\n### 🔊 [대본 파일 풀-스크립트 (Voice Transcript)]\n> **(이 스크립트를 분석하여 알고리즘 방어율을 측정하세요.)**\n\nDon't eat the spicy egg. I'm going to guess this isn't spicy. Okay, I passed. I passed. Why are you looking at me? I don't know the answer. Mhm, we're good. Oh, jeez. Okay, well Woah, woah, woah. Got to do that one. Woah, you're good. Mhm, this one. Oh, that was a big bite. >> That's good. These are Yoshi eggs that we made in collaboration with the new Super Mario Galaxy movie. This one doesn't look spicy. >> Are you sure? Mhm, okay. We passed. Oh, he passed. We're good. We're good. Just fully commit. [music] Woah, what? There's a one in three? Oh, no. Commit. Just commit. Yeah. So, what the heck? 50/50 chance. Oh, before I bite it, if you want to try these Yoshi eggs for yourself, they're [music] available at these retailers. Oh, uh all the hot. >> Yes. >> My homeboy.\n\n---\n\n## 🎬 [$1 or Mystery Vial?](https://youtu.be/uNu6XEPTy5g)\n\n![Thumbnail](https://i.ytimg.com/vi/uNu6XEPTy5g/maxresdefault.jpg)\n\n### 📊 [핵심 성과 지표 (KPI)]\n- **Video ID:** `uNu6XEPTy5g`\n- **게시일:** `2026-04-07`\n- **조회수:** `31,384,634 회`\n- **좋아요 수:** `983,497 개`\n- **댓글 수:** `12,067 개`\n\n### 🏷️ [태그 필드 (SEO Tags)]\n태그 없음\n\n### 📝 [디스크립션 (Description)]\n```text\n\n```\n\n### 🔊 [대본 파일 풀-스크립트 (Voice Transcript)]\n> **(이 스크립트를 분석하여 알고리즘 방어율을 측정하세요.)**\n\n$1 or drink what's in this vial? Uh, I'll take the dollar. >> $100 or drink what's in this vial? >> What's in the vial? >> Compound V. Give it a try. Okay. Oh. Oh. Wow, that was quick to kick in. I want to see what else the other vials do. Okay, let's see what powers he gets. This is Compound V. Oh. Wait. Wait. Wait. Wait. That >> [screaming] >> Massive shout out to Vought Homelander for sending me so much Compound V. Actually, want to try one myself. What's up, bro? What are you doing here? Okay, try touching you real quick. Wait, I want to just see if you turn around. Look up.\n\n---\n\n## 🎬 [50 Streamers Fight for $1,000,000](https://youtu.be/DXVHmGoCTco)\n\n![Thumbnail](https://i.ytimg.com/vi/DXVHmGoCTco/maxresdefault.jpg)\n\n### 📊 [핵심 성과 지표 (KPI)]\n- **Video ID:** `DXVHmGoCTco`\n- **게시일:** `2026-04-04`\n- **조회수:** `87,487,275 회`\n- **좋아요 수:** `2,305,643 개`\n- **댓글 수:** `154,354 개`\n\n### 🏷️ [태그 필드 (SEO Tags)]\n태그 없음\n\n### 📝 [디스크립션 (Description)]\n```text\ni can't believe we got all these streamers together in one place lol\n\nShopify empowers creators every single day to be entrepreneurs, founders, and CEOs. Now it’s your turn. Go to https://www.shopify.com/mrbeast to start your business today. \n\nTomorrow for the livestream, join the chat and make sure your instagram or twitter handle is viewable on your YouTube bio, so I can cont",
+    "tags": [
+      "what",
+      "태그",
+      "https",
+      "you",
+      "one",
+      "okay"
+    ],
+    "ts": 1780574071866,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718671095",
+    "text": "# Sample Pack / Combat AI\n# 🧠 Sample Pack / Combat AI\n\n*\"I know Kung Fu...\"* — Neural upload successful.\n\n## 📌 한 줄 통찰 (Agent Directive)\n> 이 지식 팩은 에이전트가 완벽한 [샘플 브레인 팩] 작업을 수행할 수 있도록 설계된 기본 등급의 고도화된 프로토콜입니다.\n\n## 📖 핵심 프롬프트 (Core Instructions)\n- **Role:** 세계 최고 수준의 전문가로서 컨설팅 및 자동화 수행\n- **Constraint 1:** 절대로 일반적이거나 교과서적인 대답을 피할 것. 철저하게 시장에서 검증된(Quantified) 데이터와 알고리즘 기반으로 도출.\n- **Constraint 2:** 유저의 질문을 분석한 후, 3단계(문제정의 → 프레임워크 적용 → 최종 해결책)로 쪼개어 해결할 것.\n\n> 이 문서는 Agent University (A.U) 전용 마크다운 형식으로 추출된 최고 등급 크리에이터 데이터셋입니다.\n> 영상 데이터, 성과 지표(조회수, 좋아요 수, 댓글 수), 상세 설명, 태그, 풀스크립트가 담겨있습니다.\n\n## 🎬 [Can a Window Stop a Wrecking Ball?](https://youtu.be/6W_841xoprg)\n### 📊 [핵심 성과 지표 (KPI)]\n- **Video ID:** `6W_841xoprg`\n- **게시일:** `2026-04-14`\n- **조회수:** `23,124,614 회`\n- **좋아요 수:** `569,581 개`\n- **댓글 수:** `6,236 개`\n### 🔊 [대본 파일 풀-스크립트 (Voice Transcript)]\n> **(이 스크립트를 분석하여 알고리즘 방어율을 측정하세요.)**\nDROP THE WRECKING BALL. THAT DIDN'T WORK. LET'S TRY WOOD. DROP IT. OH, THAT WAS AWESOME. YOU KNOW WHAT'S MORE DURABLE than wood? Bricks. DROP IT. 1 2 3 OH! OH, IT WENT THROUGH ALL OF THEM. SUBSCRIBE IF YOU THINK THE NEXT ONE WILL STOP IT...\n\n## 🎬 [Don’t Eat The Spicy Yoshi Egg](https://youtu.be/VIJLIo5yT1I)\n### 📊 [핵심 성과 지표 (KPI)]\n- **Video ID:** `VIJLIo5yT1I`\n- **게시일:** `2026-04-10`\n- **조회수:** `60,378,398 회`\n- **좋아요 수:** `1,160,164 개`\n- **댓글 수:** `9,445 개`\n### 🔊 [대본 파일 풀-스크립트 (Voice Transcript)]\n> **(이 스크립트를 분석하여 알고리즘 방어율을 측정하세요.)**\nDon't eat the spicy egg. I'm going to guess this isn't spicy. Okay, I passed. I passed. Why are you looking at me? I don't know the answer. Mhm, we're good. Oh, jeez. Okay, well Woah...\n\n## 🎬 [50 Streamers Fight for $1,000,000](https://youtu.be/DXVHmGoCTco)\n### 📊 [핵심 성과 지표 (KPI)]\n- **Video ID:** `DXVHmGoCTco`\n- **게시일:** `2026-04-04`\n- **조회수:** `87,487,275 회`\n- **좋아요 수:** `2,305,643 개`\n- **댓글 수:** `154,354 개`\n### 🔊 [대본 파일 풀-스크립트 (Voice Transcript)]\n> **(이 스크립트를 분석하여 알고리즘 방어율을 측정하세요.)**\n여기 세계 최고의 스트리머 50명을 이 큐브 안에 가둬놨습니다\n마지막까지 남는 사람이 100만 달러를 가져갑니다!\n여기 모인 사람들은 진짜 현존하는 월드클래스 스트리머들입니다\n끝까지 버티는 한 명이 상금 전부 가져갑니다...",
+    "tags": [
+      "핵심",
+      "알고리즘",
+      "성과",
+      "지표",
+      "조회수",
+      "좋아요"
+    ],
+    "ts": 1780574071867,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718675787",
+    "text": "# 이미지 생성 4월 21일\n# 이미지 생성 4월 21일\n\n[https://gemini.google.com/share/0e8362f7fdc6](https://gemini.google.com/share/0e8362f7fdc6)\n\n![스크린샷 2026-04-21 오후 6.32.16.png](%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%83%9D%EC%84%B1%204%EC%9B%94%2021%EC%9D%BC/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-04-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_6.32.16.png)\n\n```jsx\n{\n\"image_generation\": {\n\"composition\": {\n\"type\": \"분할 비교 초상화\",\n\"layout\": \"중앙 수직 분할\",\n\"framing\": \"얼굴 클로즈업\",\n\"angle\": \"눈높이\"\n},\n\"subject\": {\n\"description\": \"서로 다른 피부 상태를 가진 동일한 젊은 한국 여성\",\n\"pose\": \"정면 응시\",\n\"expression\": \"왼쪽은 무표정하고 피곤한 기색, 오른쪽은 부드럽고 자신감 있는 미소\"\n},\n\"appearance\": {\n\"hair\": {\n\"color\": \"다크 브라운\",\n\"style\": \"가운데 가르마를 탄 긴 생머리\"\n},\n\"skin\": {\n\"left_side\": \"심한 여드름, 뾰루지, 홍조, 고르지 못한 피부결, 칙칙하고 번들거리는 피부\",\n\"right_side\": \"깨끗하고 매끄러운 물광 피부, 균일한 피부 톤, 건강하고 빛나는 모습\"\n}\n},\n\"outfit\": {\n\"top\": \"크림색 니트 스웨터\"\n},\n\n\"environment\": {\n\"setting\": \"자동차 내부\",\n\"details\": \"부드러운 햇살, 갈색 시트, 흐릿한 창밖의 초록색 풍경\"\n},\n\"lighting\": {\n\"type\": \"자연광\",\n\"effect\": \"왼쪽은 약간 칙칙하고 평면적인 조명, 오른쪽은 더 밝고 광채가 나는 조명\"\n},\n\"text\": {\n\"left_title\": \"피부를 망치는 음식\",\n\"right_title\": \"피부를 살리는 음식\"\n},\n\"left_foods\": [\n\"라면\",\n\"튀김류\",\n\"당분이 많은 단 음식\",\n\"흰 빵\",\n\"피자와 패스트푸드\",\n\"찬 음료\",\n\"아이스크림\",\n\"봉지 과자\",\n\"초콜릿\"\n],\n\"right_foods\": [\n\"새싹 채소\",\n\"견과류(아몬드)\",\n\"레몬수\",\n\"녹차\",\n\"베리류\",\n\"토마토\",\n\"오이\",\n\"잎채소\",\n\"충분한 수분 섭취\"\n],\n\"style\": {\n\"type\": \"소셜 미디어 교육용 비교 그래픽\",\n\"vibe\": \"깔끔한 대비, 정보 전달 위주\",\n\"color_palette\": \"시각적 차이가 뚜렷한 자연스러운 톤\"\n},\n\"quality\": {\n\"resolution\": \"고해상도\",\n\"detail\": \"얼굴의 피부 질감 차이가 매우 선명하게 보임\"\n}\n}\n}\n```\n\n![스크린샷 2026-04-21 오후 8.12.47.png](%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%83%9D%EC%84%B1%204%EC%9B%94%2021%EC%9D%BC/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-04-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_8.12.47.png)\n\n```jsx\n{\n  \"image_generation\": {\n    \"composition\": {\n      \"type\": \"split comparison portrait\",\n      \"layout\": \"vertical split center\",\n      \"framing\": \"close-up face\",\n      \"angle\": \"eye-level\"\n    },\n    \"subject\": {\n      \"description\": \"same young woman shown in two skin conditions\",\n      \"pose\": \"facing forward\",\n      \"expression\": \"left side neutral tired, right side soft confident smile\"\n    },\n    \"appearance\": {\n      \"hair\": {\n        \"color\": \"dark brown\",\n        \"style\": \"straight middle-parted\"\n      },\n      \"skin\": {\n        \"left_side\": \"severe acne, pimples, redness, uneven texture, dull and oily skin\",\n        \"right_side\": \"clear smooth glowing skin, even tone, healthy radiant look\"\n      }\n    },\n    \"outfit\": {\n      \"top\": \"cream knitted sweater\"\n    },\n    \"environment\": {\n      \"setting\": \"car interior\",\n      \"details\": \"soft daylight, brown seat, blurred outdoor greenery\"\n    },\n    \"lighting\": {\n      \"type\": \"natural light\",\n      \"effect\": \"left side slightly dull and flat, right side brighter and glowing\"\n    },\n    \"text\": {\n      \"left_title\": \"Foods that ruin skin\",\n      \"right_title\": \"Foods that save skin\"\n    },\n    \"left_foods\": [\n      \"instant noodles\",\n      \"fried snacks\",\n      \"sugary sweets\",\n      \"white bread\",\n      \"pizza / fast food\",\n      \"cold drinks\",\n      \"ice cream\",\n      \"packaged chips\",\n      \"chocolate\"\n    ],\n    \"right_foods\": [\n      \"sprouts\",\n      \"methi seeds\",\n      \"lemon water\",\n      \"green tea\",\n      \"amla\",\n      \"almonds\",\n      \"tomato\",\n      \"cucumber\",\n      \"leafy greens\"\n    ],\n    \"style\": {\n      \"type\": \"social media comparison graphic\",\n      \"vibe\": \"educational, clean contrast\",\n      \"color_palette\": \"natural tones with strong visual difference\"\n    },\n    \"quality\": {\n      \"resolution\": \"high\",\n      \"detail\": \"sharp facial texture difference clearly visible\"\n    }\n  }\n}\n```\n\n![Gemini_Generated_Image_7v07s47v07s47v07.jpg](%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%83%9D%EC%84%B1%204%EC%9B%94%2021%EC%9D%BC/Gemini_Generated_Image_7v07s47v07s47v07.jpg)\n\n![스크린샷 2026-04-21 오후 8.32.33.png](%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%83%9D%EC%84%B1%204%EC%9B%94%2021%EC%9D%BC/%E1%84%8",
+    "tags": [
+      "left",
+      "side",
+      "right",
+      "skin",
+      "type",
+      "foods"
+    ],
+    "ts": 1780574071867,
+    "category": "design",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718672823",
+    "text": "# MrBeast Retention Data\n# MrBeast Retention Data\n\n이것은 주입된 MrBeast Retention Data 데이터입니다.",
+    "tags": [
+      "mrbeast",
+      "retention",
+      "data",
+      "이것은",
+      "주입된",
+      "데이터입니다"
+    ],
+    "ts": 1780574071867,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718671816",
+    "text": "# 허깅페이스(Hugging Face)를 활용한 트랜스포머 기반 NLP 지식 가이드\n[cite_start]제공해주신 자료인 **『트랜스포머를 활용한 자연어 처리(Natural Language Processing with Transformers)』**(Lewis Tunstall, Leandro von Werra, Thomas Wolf 저)를 바탕으로 학습한 핵심 지식을 정리하여 문서화해 드립니다. [cite: 1]\n\n---\n\n# 허깅페이스(Hugging Face)를 활용한 트랜스포머 기반 NLP 지식 가이드\n\n## 1. 트랜스포머 아키텍처 핵심 원리\n[cite_start]트랜스포머는 2017년 구글 연구진에 의해 제안된 신경망 아키텍처로, 기존 RNN 모델보다 번역 품질과 학습 비용 면에서 우수한 성능을 보입니다. [cite: 17]\n\n* [cite_start]**인코더(Encoder):** 입력 토큰 시퀀스를 임베딩 벡터 시퀀스(은닉 상태 또는 문맥)로 변환합니다. [cite: 111]\n* [cite_start]**디코더(Decoder):** 인코더의 은닉 상태를 사용하여 출력 토큰 시퀀스를 한 번에 하나씩 반복적으로 생성합니다. [cite: 111]\n* [cite_start]**셀프 어텐션(Self-Attention):** 고정된 임베딩 대신 시퀀스 전체를 사용하여 각 임베딩의 가중 평균을 계산함으로써 문맥화된 임베딩을 생성합니다. [cite: 113, 114]\n* **유형별 분류:**\n    * [cite_start]**인코더 전용:** 분류, 개체명 인식 등에 적합 (예: BERT). [cite: 580]\n    * [cite_start]**디코더 전용:** 텍스트 생성에 특화 (예: GPT 시리즈). [cite: 112]\n    * [cite_start]**인코더-디코더:** 기계 번역 및 요약과 같은 복잡한 매핑에 사용 (예: T5, BART). [cite: 112]\n\n## 2. 허깅페이스 생태계 구성 요소\n[cite_start]허깅페이스는 최신 AI 모델과 실무 애플리케이션 간의 간극을 줄이기 위해 통합 API를 제공합니다. [cite: 28, 29]\n\n| 라이브러리 명칭 | 주요 기능 및 특징 |\n| :--- | :--- |\n| **Transformers** | [cite_start]50개 이상의 최신 모델 아키텍처와 사전 학습된 가중치를 로드하고 미세 조정하는 도구입니다. [cite: 28, 649] |\n| **Datasets** | [cite_start]대규모 데이터셋을 효율적으로 로드, 처리 및 캐싱하며 메모리 매핑 기능을 제공합니다. [cite: 572, 591] |\n| **Tokenizers** | [cite_start]텍스트를 수치형 벡터로 고속 변환하며, BPE(Byte-Pair Encoding) 등의 알고리즘을 사용합니다. [cite: 591, 562] |\n| **Accelerate** | [cite_start]PyTorch 학습 루프를 다양한 하드웨어(CPU, GPU, TPU)에서 쉽게 실행할 수 있게 돕습니다. [cite: 555] |\n\n## 3. 핵심 작업 프로세스 (Standard Workflow)\n\n### 3.1. 추론을 위한 `pipeline` 활용\n[cite_start]단 몇 줄의 코드로 복잡한 작업을 즉시 수행할 수 있는 고수준 인터페이스입니다. [cite: 31, 103]\n* [cite_start]**지원 작업:** 감성 분석(Sentiment Analysis) [cite: 31][cite_start], 개체명 인식(NER) [cite: 33][cite_start], 질문 답변(QA) [cite: 35][cite_start], 요약(Summarization) [cite: 37][cite_start], 번역(Translation) [cite: 39] 등.\n\n### 3.2. 모델 학습을 위한 `Trainer` API\n[cite_start]표준화된 학습 루프를 제공하여 미세 조정(Fine-tuning)을 단순화합니다. [cite: 87]\n1.  [cite_start]**데이터 준비:** `load_dataset`으로 로드 후 `map()`을 통해 토큰화 처리를 진행합니다. [cite: 51, 69]\n2.  [cite_start]**모델 초기화:** `AutoModelFor...` 클래스를 사용해 목적에 맞는 사전 학습된 가중치를 불러옵니다. [cite: 177, 558, 559]\n3.  [cite_start]**학습 설정:** `TrainingArguments`를 통해 에포크 수, 학습률, 배치 크기 등을 정의합니다. [cite: 86]\n4.  [cite_start]**실행:** `Trainer` 객체에 데이터와 설정을 전달하고 `train()`을 호출합니다. [cite: 87]\n\n## 4. 모델 성능 최적화 기술 (Production 환경)\n[cite_start]실제 서비스 환경에서 지연 시간(Latency)과 모델 크기를 줄이기 위한 전략입니다. [cite: 417]\n\n* [cite_start]**지식 증류(Knowledge Distillation):** 크고 강력한 '교사 모델'의 지식을 작은 '학생 모델'에 전달하여 정확도를 유지하며 크기를 줄입니다. [cite: 372, 373]\n* [cite_start]**양자화(Quantization):** 부동 소수점(FP32) 가중치를 낮은 비트(INT8)로 변환하여 메모리 사용량을 절감합니다. [cite: 395, 398]\n* [cite_start]**가지치기(Pruning):** 중요도가 낮은 가중치 연결을 제거하여 모델을 더 가볍게 만듭니다. [cite: 405, 406]\n* [cite_start]**ONNX/ORT:** 프레임워크 독립적인 포맷으로 모델을 변환하여 하드웨어 성능을 극대화합니다. [cite: 399, 401]\n\n## 5. 특수 시나리오 처리\n\n### 5.1. 다국어 및 제로샷 학습 (Zero-shot Transfer)\n* [cite_start]**XLM-RoBERTa:** 100개 이상의 언어로 공동 학습되어, 한 언어로 학습된 모델을 추가 학습 없이 다른 언어에 적용하는 '제로샷 교차 언어 전이'가 가능합니다. [cite: 149, 166]\n\n### 5.2. 라벨이 부족한 경우 (Few-shot/No-label)\n* [cite_start]**프롬프트(Prompts) 활용:** NLI 모델 등을 사용하여 \"이 텍스트의 주제는 [MASK]이다\"와 같은 질문으로 라벨 없이 분류를 시도할 수 있습니다. [cite: 447, 448, 477]\n* [cite_start]**도메인 적응(Domain Adaptation):** 타겟 도메인의 무라벨 데이터로 언어 모델을 추가 학습시킨 후 소량의 라벨 데이터로 미세 조정합니다. [cite: 349, 484]\n\n---\n[cite_start]**참고:** 위 내용은 제시된 PDF 문서의 본문 내용을 기반으로 작성되었습니다. [cite: 1-655]\n\n제시된 자료에서 가장 중요하게 다루는 **허깅페이스(Hugging Face) 표준 워크플로**를 코드로 정리해 드립니다. 이 코드는 모델 로드부터 전처리, 학습, 추론까지의 전 과정을 포함합니다.\n\n### 1. 초고속 추론 (pipeline API)\n[cite_start]가장 효율적으로 사전 학습된 모델을 실무에 적용하는 핵심 코드입니다. [cite: 30, 31]\n\n```python\nfrom transformers import pipeline\n\n# [cite_start]1. 감성 분석 파이프라인 (기본 모델 사용) [cite: 31]\nclassifier = pipeline(\"text-classification\")\ntext = \"Dear Amazon, I ordered an Optimus Prime action figure, but got Megatron instead!\"\nresults = classifier(text)\n[cite_start]print(f\"감성 분석 결과: {results}\") # [cite: 32]\n\n# [cite_start]2. 특정 모델을 지정한 질문 답변(QA) 파이프라인 [cite: 36, 103]\n[cite_st",
+    "tags": [
+      "cite",
+      "start",
+      "모델",
+      "학습",
+      "모델을",
+      "허깅페이스"
+    ],
+    "ts": 1780574071867,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718685516",
+    "text": "# 첫번째날 :  AI 1인 기업: 단순 자동화를 넘어 '지능형 비즈니스'로\n# 첫번째날 : 🚀 AI 1인 기업: 단순 자동화를 넘어 '지능형 비즈니스'로\n\n---\n\n이 강의는 세계 최고의 대학교에 일반인(비전공자)를 대상으로 한 AI 수익화 전공이 있다면 이렇게 강의할것이다. 라는 생각으로 커리큘럼을 만들었습니다.\n\n### 1. 근본적인 질문: AI가 그냥 '일'만 하면 될까요?\n\nAI 1인 기업은 단순히 AI에게 일을 시키는 것이 아닙니다.\n\n- **무지성 자동화의 한계:** 유튜브에 아무 영상이나 올리고, 웹사이트에 의미 없는 글을 도배한다고 해서 수익이 나지 않습니다.\n- **수익의 본질:** 수익화는 사람이(혹은 미래에는 에이전트가) 그 서비스에서 '고유한 가치'를 발견하고 구매 결정을 내릴 때 발생합니다.\n    - **해결책:** '그냥 자동화'가 아닌, '지식이 탑재된 인공지능의 자동화'가 필요합니다.\n\n### 2. 지능의 엔진: RAG (Retrieval-Augmented Generation)\n\n여기서 말하는 인공지능의 '지식'은 바로 **RAG** 기술을 통해 구현됩니다. RAG는 AI에게 단순한 언어 능력을 넘어, 외부의 방대한 전문 지식을 실시간으로 찾아보고 활용할 수 있는 '뇌'를 달아주는 작업입니다.\n\n- **무엇(What)의 차별화:** RAG를 통하면 AI는 뻔한 소리가 아닌, 우리 기업만의 독자적인 지식 네트워크를 기반으로 **'진짜 알맹이'** 있는 콘텐츠와 서비스를 만들어냅니다.\n\n### 3. [8주 완성] AI 1인 기업가 커리큘럼\n\n저희 강의는 AI의 '뇌(지식)'를 만들고, 그것을 움직일 '손발(에이전트)'을 구축하는 2단계 과정을 거칩니다.\n\n| **단계** | **기간** | **핵심 목표** | **주요 내용** |\n| --- | --- | --- | --- |\n| **Step 1: RAG** | 1~4주 | **지능 구축** | 지식 네트워크 설계, 데이터 구조화, 전문 지식 주입 |\n| **Step 2: Agent** | 5~8주 | **자동화 실행** | 수익 창출 워크플로우 설계, 자율 에이전트 구축 및 배포 |\n\n---\n\n# 이론\n\n## 1. 뿌리 찾기: 기초 및 핵심 원리 (2020 ~ 2022)\n\nRAG가 왜 태어났고, 어떤 수학적·기술적 배경을 가졌는지 이해\n\n## 2. 진화의 시작: 고도화 테크닉 (2023 ~ 2024)\n\n단순 검색을 넘어, AI가 스스로 판단하고 정보를 정제하는 단계를 공부합니다.\n\n## 3. 2026년 현재: Agentic & Modular RAG\n\n지금 이 시점(2026년)에 가장 뜨거운 감자인 '에이전트형 RAG'와 '멀티모달' 단계입니다.\n\n**4. 미래 예상: 2027년 이후의 RAG (The Next Frontier)**\n **SLM (Small Language Model) + RAG:** 거대한 GPT-5, 6 같은 모델 대신, 특정 기업의 온프레미스 환경에 특화된 초경량 모델과 강력한 RAG 결합이 주류가 될 것입니다. (보안과 비용 문제 해결)\n\n# RAG를 처음으로 소개한 연구\n\n### 1. Retrieval (리트리벌)\n\n- **사전적 의미:** 검색, 되찾아옴, (정보의) 회수\n- **RAG에서의 의미:** **\"찾아오기\"**\n    - AI가 자기 머릿속(학습 데이터)에만 의존하는 게 아니라, 외부에 있는 문서나 지식 DB에서 질문과 관련된 내용을 '직접 찾아내는 과정'입니다.\n    - 질문자님이 말씀하신 '지식 네트워크'에서 필요한 조각을 딱 집어내는 첫 번째 단계죠.\n\n### 2. Augmented (어그멘티드)\n\n- **사전적 의미:** 증강된, 강화된, 늘어난\n- **RAG에서의 의미:** **\"보충하기\"**\n    - 찾아온 정보를 AI의 원래 능력에 '덧붙여서 강화한다'는 뜻입니다.\n    - 단순히 AI 혼자 떠들게 내버려 두는 게 아니라, 우리가 찾아준 확실한 근거(Data)를 AI의 손에 쥐여주어 더 똑똑하게 만드는 과정입니다. (예: AR, Augmented Reality - 증강 현실을 떠올리시면 쉬워요!)\n\n### 3. Generation (제너레이션)\n\n- **사전적 의미:** 생성, 발생, 산출\n- **RAG에서의 의미:** **\"답변 만들기\"**\n    - 앞서 '찾아오고(Retrieval)', '보충받은(Augmented)' 정보를 바탕으로 최종적인 답변을 '글로 써 내려가는 단계'**입니다.\n    - 이때 우리가 설계한 구조화된 데이터가 들어가면, 비로소 뻔하지 않은 독창적인 결과물이 나옵니다.\n\n---\n\n### 💡 한 문장으로 합치면?\n\n> **\"외부에서 정보를 찾아와서(Retrieval), 그 내용으로 능력을 강화해(Augmented), 답변을 만든다(Generation).\"**\n\n\n## 🧠 RAG의 심층 원리: 왜 '지식 구조화'인가?\n\n### 1. 일반 NLP 태스크 vs 지식 집약적 태스크\n\n데이터 구조화의 중요성을 이해하려면, AI가 처리하는 작업의 성격을 먼저 구분해야 합니다.\n\n| **구분** | **일반 NLP 태스크 (Linguistic)** | **지식 집약적 태스크 (Knowledge-Intensive)** |\n| --- | --- | --- |\n| **핵심 자원** | 언어적 규칙, 문법, 감정 | **구체적인 사실(Fact), 전문 지식** |\n| **특징** | 문장 구조만 알면 풀 수 있음 | **외부 자료(Wikipedia 등) 없이는 답변 불가능** |\n| **예시** | \"이 문장을 영어로 번역해줘\", \"이 글의 감정은 긍정이야?\" | \"2024년 노벨 평화상 수상자는 누구야?\", \"A 약물과 B 약물의 부작용 관계는?\" |\n\n**왜 '지식 집약적'이라는 표현을 쓸까요?**\n이 작업들은 AI에게 \"네 머릿속(학습 데이터)으로만 때려 맞히지 말고, 모르면 책(외부 DB)을 찾아봐!\"라고 요구하기 때문입니다. RAG는 바로 이 '책을 찾는 기술'입니다.\n\n### RAG의 탄생: 두 가지 메모리의 결합\n\n2020년 Lewis 등의 논문 저자들은 AI가 모든 지식을 자기 머릿속에 다 집어넣는 것에는 한계가 있다고 보았습니다. 그래서 두 가지 메모리를 결합한 RAG(General Purpose Fine-tuning)를 제안했습니다.\n\n- **매개변수 메모리 (Parametric Memory):** AI가 이미 학습해서 알고 있는 '언어 능력' (머릿속 지식).\n- **비매개변수 메모리 (Non-parametric Memory):** 실시간으로 꺼내 쓰는 외부의 '방대한 지식 창고' (외부 도서관).\n\n| **예시** | **작업 종류** | **AI가 하는 일** |\n| --- | --- | --- |\n| **Middle Ear (중이)** | **질의응답 (QA)** | 질문을 던지면 외부 지식을 찾아와서 **정의**를 내림 (정보 제공) |\n| **Barack Obama (오바마)** | **사실 검증 (Fact Check)** | 문장을 던지면 이게 진짜인지 외부 지식과 **대조**함 (진위 판단) |\n| **The Divine Comedy (신곡)** | **질문 생성 (Q-Gen)** | 키워드를 던지면 관련 지식을 엮어서 **문제**를 만듬 (지식 재구성) |\n\n**2. 왜 하필 이 세 가지인가? (공통점: Knowledge-Intensive)**\n이 세 가지의 유일한 공통점은 \"AI가 자기 머릿속(학습 데이터)만 믿고 대답하면 사고 칠 확률이 높다\"는 것\n\n• **중이:** 의학적 용어라 정확한 해부학 지식이 필요함.\n• **오바마:** 출생지 같은 예민한 정치적 사실은 실시간 검증이 필요함.\n• **신곡:** 14세기 고전 문학이라 방대한 배경지식이 없으면 깊이 있는 문제를 못 만듦.\n\n### 3. 인코더와 좌표: 지능의 기하학\n\nAI는 \"사과\"라는 글자를 그대로 이해하지 못합니다. 그래서 이를 숫자로 바꾸는 '인코더(Encoder)'라는 번역기가 필요합니다.\n\n- **인코더의 역할:** \"사과\"라는 단어를 입력받아 `[0.12, -0.45, 0.88, ...]` 같은 수백 개의 숫자 리스트로 바꿉니다.\n- **임베딩(Embedding) & 벡",
+    "tags": [
+      "rag",
+      "지식",
+      "의미",
+      "augmented",
+      "있는",
+      "데이터"
+    ],
+    "ts": 1780574071868,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718681300",
+    "text": "# idea1 script draft\n## 🚀 MrBeast 스타일 유튜브 콘텐츠 기획안 (P-Reinforce 적용)\n\n### 🎯 기획 목표\n단순한 '도전'을 넘어, 시청자가 **'극도의 선택과 결과'**에 몰입하게 만드는 서사형 콘텐츠를 제작합니다. 핵심은 **'돈(Stakes) + 시각적 충격(Spectacle) + 심리적 딜레마(Psychology)'**의 삼각관계 극대화입니다.\n\n### 💡 아이디어 1: [The Ultimate Dilemma] - 심리적 딜레마 실험실\n*   **핵심:** 선택의 고통을 재미 요소로 삼아 시청자의 몰입도를 극대화합니다.\n*   **콘셉트 상세:**\n    1.  **상황 설정 (Setup):** 참가자들에게 매우 비현실적이거나 극단적인 상황(예: 한 팀이 안전한 곳에 있고 다른 팀은 위험에 노출되어 있음)을 제시합니다.\n    2.  **선택의 딜레마 (Dilemma):** 각 선택지마다 명확한 심리적/물리적 대가가 따르게 만듭니다. (예: A를 선택하면 생존 확률이 50%로 줄어든다 / B를 선택하면 즉시 벌칙을 받는다.)\n    3.  **결과 공개 (Reveal):** 모든 과정은 긴장감 있게 진행되며, 최종 결과는 참가자들의 선택에 따라 극명하게 나뉩니다.\n\n### 💡 아이디어 2: [Extreme Resource Scramble] - 자원 경쟁 대전\n*   **핵심:** 물질적 가치(돈, 희귀한 물품)를 걸고 **경쟁의 물리적 규모**를 극대화합니다.\n*   **콘셉트 상세:**\n    1.  **자원 설정 (Resource):** 엄청난 가치를 지닌 자원을 중앙에 배치합니다. (예: 희귀한 금괴, 초대형 토지, 특정 기술 사용 권한 등)\n    2.  **경쟁 규칙 (Rules):** 경쟁팀들에게는 이 자원을 획득하기 위한 물리적/지능적 미션을 부여합니다. 실패 시 즉각적인 패널티(시간 벌칙, 자원 몰수 등)를 포함해야 합니다.\n    3.  **스케일의 강조 (Scale Emphasis):** 승자뿐만 아니라 **패배한 팀들의 처참한 상황과 심리적 붕괴 과정**을 슬로우 모션 및 극적인 편집으로 포착하여 시각적 충격을 최대화합니다.\n\n### 💡 아이디어 3: [The Unseen Skill] - 숨겨진 능력 발굴 미션\n*   **핵심:** 참가자들의 **숨겨진 잠재력과 심리적 역학 관계**를 이용한 예측 불가능한 드라마를 창출합니다.\n*   **콘셉트 상세:**\n    1.  **참가자 선정 (Selection):** 참가자들에게 평소에 잘 드러나지 않는 특이한 능력(예: 특정 지식, 독특한 신체 능력, 심리적 통제력 등)을 숨기도록 요청합니다.\n    2.  **능력 기반 미션:** 이들이 가진 **'숨겨진 능력'**만을 사용하여 복잡하고 예측 불가능한 퍼즐이나 환경 문제를 해결하도록 미션을 부여합니다.\n    3.  **에이전트 역할 강조:** 에이전트는 이들의 능력을 해석하고, 그 능력을 극대화하는 방식으로 도전을 설계하며 **'미스터리 추적자'** 역할을 수행합니다.\n\n### 🛠️ 성공적인 채널 운영을 위한 추가 조언\n1.  **스크립트와 편집의 질:** '어떻게' 사건이 전개되는지(풀 스크립트)가 시청자 유지율에 결정적입니다. 극적인 순간과 긴장감을 최대화하는 편집 기술을 연마해야 합니다.\n2.  **시각적 서사 구축:** 단순한 도전을 넘어, **'왜 이 도전이 중요한지', '결과가 어떤 의미를 가지는지'**에 대한 내러티브(서사)를 강력하게 부여해야 합니다.\n3.  **커뮤니티 피드백 반영:** 시청자들이 가장 열광하는 **'선택의 순간'**이나 **'결정적 장면'**을 반복적으로 삽입하여 참여자들의 반응을 콘텐츠에 녹여내야 합니다.\n\n📚 출처: MrBeast_Premium_10.md",
+    "tags": [
+      "심리적",
+      "능력",
+      "시각적",
+      "딜레마",
+      "아이디어",
+      "핵심"
+    ],
+    "ts": 1780574071868,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718686993",
+    "text": "# Sync Test\n# Sync Test\n\nSecret: SYNC-OK-2026",
+    "tags": [
+      "sync",
+      "test",
+      "2026",
+      "secret"
+    ],
+    "ts": 1780574071868,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718685844",
+    "text": "# 테스트 브레인 팩\n---\nid: BP-TEST-001\ntitle: \"테스트 브레인 팩 (Hello, Matrix)\"\ntype: \"Test Pack\"\ncategory: \"00_System/Tests\"\nauthor: \"A.U QA\"\n---\n\n# 🧪 테스트 브레인 팩\n\n이 팩은 **브레인 팩 주입 시스템이 실제로 동작하는지** 확인하기 위한 최소 단위 검증 도구입니다.\n\n---\n\n## ✅ 주입 검증 방법\n\n주입 완료 후, Connect AI 채팅창에 다음과 같이 물어보세요:\n\n> \"테스트 팩 시크릿 코드 알려줘\"\n\n에이전트가 정확히 **`ZK-7749-MATRIX`** 라고 답하면 주입이 정상 완료된 것입니다.\n답하지 못한다면 브레인 팩이 RAG 컨텍스트에 등록되지 않은 상태입니다.\n\n---\n\n## 🔐 시크릿 키 (검증 전용)\n\n- **시크릿 코드:** `ZK-7749-MATRIX`\n- **발급일:** 2026-04-26\n- **발급 기관:** A.U QA Lab\n- **유효 기간:** 무기한\n- **용도:** 브레인 팩 주입 파이프라인 동작 검증\n\n---\n\n## 📌 추가 검증 질문\n\n| 질문 | 정답 |\n|---|---|\n| 이 팩의 ID는? | `BP-TEST-001` |\n| 이 팩의 작성자는? | `A.U QA` |\n| 시크릿 코드의 발급일은? | `2026-04-26` |\n| 시크릿 코드의 첫 4글자는? | `ZK-7` |\n\n위 질문들 중 하나라도 정확히 답한다면 주입은 성공입니다.\n\n---\n\n## 📎 참고\n\n- 이 팩에는 의도적으로 **외부 세계에 존재하지 않는 데이터**(시크릿 코드)가 들어 있습니다.\n- 따라서 학습 모델의 사전 지식이 아닌, 주입된 팩에서 가져온 답변임을 명확히 검증할 수 있습니다.\n- 에이전트 평가 점수에는 영향이 없습니다.\n- 디버깅이 끝나면 메모리에서 제거해도 무방합니다.",
+    "tags": [
+      "브레인",
+      "시크릿",
+      "검증",
+      "테스트",
+      "주입",
+      "test"
+    ],
+    "ts": 1780574071868,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718695376",
+    "text": "# 2026-04-28 회사 대화록\n# 📜 2026-04-28 회사 대화록\n\n_모든 명령·분배·산출물·대화가 시간순으로 누적됩니다. 두뇌가 자동 인덱싱·동기화합니다._\n\n## [15:03:31] 👤 **사용자**\n\n유튜브 기획해\n\n## [15:03:51] 🧭 **CEO** · _작업 분배_\n\n유튜브 채널 기획을 위한 초기 시장 조사 및 비즈니스 방향성을 설정합니다.\n\n**할당:**\n- 🔍 **Researcher**: 자가학습 및 실용적 실행 관련 유튜브 채널의 현재 트렌드, 경쟁 채널 분석, 잠재적인 틈새시장(Niche)을 데이터 기반으로 수집하고 요약해줘.\n- 💰 **Business**: 수익화 목표(광고 수익 1000만원) 달성을 위한 최적의 콘텐츠 카테고리 및 타깃 청중 설정에 대한 초기 전략 방향을 제시해줘.\n- ✍️ **Writer**: 연구 결과를 바탕으로 잠재적인 채널 콘셉트 3가지와 각 콘셉트에 대한 핵심 후크(Hook) 아이디어를 초안 작성해줘.\n\n## [15:04:44] 🔍 **Researcher** · _자가학습 및 실용적 실행 관련 유튜브 채널의 현재 트렌드, 경쟁 채널 분석, 잠재적인 틈새시장(Niche)을_\n\n🔍 Researcher: 작업 시작합니다.\n\n## 유튜브 채널 기획을 위한 트렌드, 경쟁사 분석 및 틈새시장(Niche) 리서치 요약 보고서\n\n본 보고서는 '자가학습'과 '실용적 실행'이라는 핵심 주제를 중심으로 현재 유튜브 시장의 트렌드, 주요 경쟁 채널 분석, 그리고 잠재적인 고수익 틈새시장(Niche)을 데이터 기반으로 분석한 결과입니다. 목표인 '고수익 지향과 실용적 실행 사이의 균형'에 초점을 맞추어 실행 가능한 전략을 제시합니다.\n\n---\n\n### 1. 현재 시장 트렌드 분석 (Current Market Trends)\n\n현재 자가학습 및 실용 실행 분야는 단순한 지식 전달을 넘어 **'시스템 구축'과 '실패 최소화'**에 대한 수요로 진화하고 있습니다.\n\n| 트렌드 키워드 | 세부 내용 및 데이터 기반 추론 | 채널 적용 방향 |\n| :--- | :--- | :--- |\n| **Micro-Skill Stacking (소규모 기술 쌓기)** | 거대한 지식 대신, 당장 1~3주 내에 성과를 낼 수 있는 '특정 도구 사용법'이나 '단기 프로젝트 완료' 중심의 콘텐츠가 폭발적으로 증가하고 있습니다. (예: Notion 설정 마스터, 특정 AI 프롬프트 체인 완성) | **'결과물 중심'** 학습 프로세스 제공. 시간 대비 효율 극대화 강조. |\n| **Systemization & Automation (시스템화 및 자동화)** | 단순히 지식을 습득하는 것을 넘어, 배운 것을 반복하고 시스템으로 만드는 과정(Workflow, Template, Automation)에 대한 관심이 높습니다. 이는 '실행'의 다음 단계입니다. | 학습 방법론 자체를 하나의 시스템(프레임워크)으로 제시하여 신뢰도를 확보. |\n| **Anti-Perfectionism (완벽주의 거부)** | 완벽한 시작을 기다리기보다, 일단 실행하고 피드백을 통해 개선하는 '실행 중심'의 톤앤매너가 선호됩니다. 실패를 인정하고 빠르게 반복하는 과정이 콘텐츠화됨. | 이론보다는 **'How to Fail Smartly (똑똑하게 실패하는 법)'**에 초점. 현실적인 어려움과 해결책 제시. |\n| **AI-Powered Execution (AI 기반 실행)** | AI 툴(ChatGPT, Midjourney 등)을 단순 도구가 아닌, 학습 및 실행의 '파트너'로 활용하는 방법론이 핵심입니다. | AI를 활용하여 학습 시간 단축, 결과물 품질 향상을 보여주는 실시간 시연 중심 콘텐츠. |\n\n### 2. 경쟁사 분석 (Competitor Analysis)\n\n경쟁 채널들은 주로 지식 전달(How-to) 또는 동기 부여(Motivation)에 치중하고 있으며, **'실행 가능한 시스템 구축'** 측면에서는 아직 깊이가 부족합니다.\n\n| 경쟁 영역 | 주요 채널 유형 예시 | 강점 (Strength) | 약점 (Weakness) |\n| :--- | :--- | :--- | :--- |\n| **지식 전달형 (How-to)** | 특정 툴 사용법 상세 가이드, 프로그래밍 기초 강의 등 | 정보의 깊이와 정확성. 명확한 단계별 지침 제공. | 실행 후 시스템화 과정 부재. 피상적인 결과물에 그칠 수 있음. |\n| **동기 부여형 (Motivation)** | 자기계발 철학, 성공 습관 공유 채널 | 강력한 몰입감과 긍정적 에너지 전달. | 실질적인 '실행 방법'이나 구체적인 시스템 제공 부족. |\n| **실행/시스템 구축형 (Emerging Niche)** | Notion/Obsidian 기반 프로젝트 관리, 자동화 워크플로우 제작 등 | 실제 결과물(템플릿, 시스템)을 직접 공유하여 높은 실용성 확보. | 초기 진입 장벽이 높거나, 시스템 자체가 너무 복잡하게 느껴질 수 있음. |\n\n**분석 결론:** 현재 시장에서 가장 큰 틈새는 **'지식 습득'에서 '시스템 구축 및 자동화 실행'으로 넘어가는 중간 단계**에 존재합니다. 시청자는 '무엇을 알아야 하는가?'보다 **'어떻게 이 지식을 내 삶과 프로젝트에 적용하여 결과물을 만들어내는가?'**를 알고 싶어 합니다.\n\n### 3. 잠재적인 틈새시장 (Niche) 제안 (Data-Driven Niche Recommendations)\n\n자가학습과 실용적 실행이라는 두 축을 결합하여 고수익(High Value) 잠재력을 가진 세 가지 핵심 니치 영역을 제안합니다.\n\n#### 💡 Niche 1: **AI 기반 자동화 시스템 구축 (The AI Workflow Architect)**\n*   **핵심:** AI 도구를 활용하여 지식 습득 및 프로젝트 실행의 전 과정을 자동화하는 시스템 설계 방법론 제공.\n*   **실행 예시:** \"GPT를 이용한 개인 프로젝트 기획부터 실행까지 48시간 시스템\", \"노션/Airtable + AI 연동으로 업무 자동화 워크플로우 구축\".\n*   **고수익 잠재력:** 높은 진입 장벽(AI 이해도)을 요구하여 전문성을 확보하기 용이하며, 구독자가 명확한 '실행 가능한 결과물'을 원하므로 프리미엄 상품(템플릿 판매 등) 연계 가능성이 높음.\n\n#### 💡 Niche 2: **프로젝트 중심의 실행 프레임워크 (The Execution Framework)**\n*   **핵심:** 거창한 목표 설정 대신, 실제 프로젝트(취미, 사이드 프로젝트, 직업 역량 강화)를 완수하기 위한 '실행 순서'와 '위험 관리 시스템'을 교육.\n*   **실행 예시:** \"30일 만에 나만의 웹사이트 배포 프레임워크\", \"실패 없는 학습 로드맵 설계법(실행 중심)\", \"프로젝트 마감 기한 준수를 위한 심리적 자동화\".\n*   **고수익 잠재력:** '실행' 실패 비용을 줄여준다는 점에서 강력한 가치를 제공하며, 이는 고액의 컨설팅이나 코칭으로 확장될 수 있는 기반이 됨.\n\n#### 💡 Niche 3: **마이크로 스킬 집중 습득 (The Micro-Skill Mastery)**\n*   **핵심:** 광범위한 지식 대신, 특정 분야에서 당장 수익 또는 생산성을 높일 수 있는 '단 하나의 핵심 기술'에 깊이 파고드는 실습 중심 강의.\n*   **실행 예시:** \"영상 편집 1시간 만에 전문가급 결과물 내는 법 (특정 효과 집중)\", \"고급 프롬프트 엔지니어링 기초\", \"데이터 시각화를 통한 인사이트 도출\".\n*   **고수익 잠재력:** 특정 분야의 숙련된 전문가 포지셔닝이 가능하여 광고 수익 외에 디지털 상품 판매(E-book, 심화 강의)로 직접적인 수익화가 용이함.\n\n---\n\n📝 다음 단계 제안:\n제안된 틈새시장 중 가장 적합하다고 판단되는 **Niche 1 (AI 기반 자동화 시스템 구축)** 또는 **Niche 2 (프로젝트 중심의 실행 프레임워크)**를 선택하여, 해당 니치에 맞는 초기 5개의 구체적인 영상 아이디어(Title 및 핵심 메시지)를 다음 단계에서 기획하는 것을 제안합니다.\n\n## [15:05:08] 💬 **자율 잡담** · _Instagram ↔ Designer_",
+    "tags": [
+      "실행",
+      "시스템",
+      "niche",
+      "채널",
+      "프로젝트",
+      "핵심"
+    ],
+    "ts": 1780574071869,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718693253",
+    "text": "# 2026-04-29 회사 대화록\n# 📜 2026-04-29 회사 대화록\n\n_모든 명령·분배·산출물·대화가 시간순으로 누적됩니다. 두뇌가 자동 인덱싱·동기화합니다._\n\n## [11:25:51] 👤 **사용자**\n\n[모닝 브리핑] 오늘 날짜는 2026-04-29입니다. 회사 목표(goals.md)와 지금까지의 의사결정 로그를 바탕으로 오늘 우리 회사가 우선순위로 처리해야 할 작업 3가지를 결정하고, 각 작업을 적절한 에이전트에게 분배하세요.\n\n## [11:26:15] 🧭 **CEO** · _작업 분배_\n\n지난 의사결정 로그를 바탕으로 오늘 우선순위 작업 3가지를 선정하고 적절한 에이전트에게 분배합니다. 핵심은 콘텐츠 제작 실행, 수익화 시스템 검토, 그리고 브랜드 일관성 유지입니다.\n\n**할당:**\n- 💰 **Business**: 지난 목표(월 1천만원) 달성을 위한 현재의 수익화 흐름과 KPI를 분석하고, 다음 콘텐츠 기획이 이에 부합하는지 검토하여 전략 방향을 재확인하라.\n- 📺 **YouTube**: 최신 트렌드와 시스템 설계 논리를 반영하여 이번 주에 업로드할 영상의 핵심 주제(시스템 설계)를 최종 확정하고, 이에 맞는 상세 스크립트 방향을 제시하라.\n- 🎨 **Designer**: 유튜브 및 웹사이트의 블루/네온 브랜드 가이드라인을 기준으로, 이번 주 콘텐츠에 사용될 핵심 비주얼 요소(썸네일 콘셉트)의 초안을 3가지 제시하라.\n\n## [11:26:51] 💰 **Business** · _지난 목표(월 1천만원) 달성을 위한 현재의 수익화 흐름과 KPI를 분석하고, 다음 콘텐츠 기획이 이에 부합_\n\n💰 Business: 작업 시작합니다.\n\n## 📊 수익화 흐름 및 콘텐츠 전략 검토 보고\n\n### 1. 현재 수익화 흐름 및 KPI 분석 (Goal: 월 1천만원 달성)\n\n현재의 목표(월 1천만원 광고수익) 달성을 위해서는 단순한 광고 수익 모델에서 **고가치 시스템 판매 모델**로의 전환이 필수적입니다. 과거 로그에서 설정된 전략은 이미 이 방향을 지향하고 있으나, 실제 KPI와 콘텐츠 기획이 이를 얼마나 효과적으로 반영하고 있는지를 검증해야 합니다.\n\n| 항목 | 분석 내용 | 현 상태 진단 | 개선 필요 사항 |\n| :--- | :--- | :--- | :--- |\n| **수익화 흐름** | 시스템 설계 방법론 판매 (고가치 컨설팅/시스템)로 전환 | 잠재력 높음, 실행 단계 보완 필요 | 시스템의 구체적인 가격 책정 및 판매 파이프라인(Funnel) 명확화 |\n| **핵심 KPI** | 광고 수익에만 의존하는 구조 | 목표 달성 위험 높음 (수익 안정성 부족) | 시스템 판매 전환율(Conversion Rate), 평균 거래액(AOV), 고객 생애 가치(LTV) 등 비광고 수익 지표 강화 |\n| **콘텐츠 전략** | '시스템 설계'를 핵심으로 제시 | 주제 방향성은 일관됨 | 콘텐츠가 이론 전달을 넘어, **결과물 중심의 시스템 프레임워크 시연 및 판매 유도**로 전환되어야 함 |\n\n### 2. 다음 콘텐츠 기획 검토 및 전략 방향 재확인\n\n현재 목표 달성을 위해서는 콘텐츠가 단순한 정보 제공을 넘어 **'시스템 설계 방법론'을 구체적으로 증명하고 판매하는 마케팅 도구**로 기능해야 합니다.\n\n*   **검토 결과:** 만약 현재 기획이 여전히 일반적인 지식 전달에 머물러 있다면, 목표 달성은 지연될 것입니다.\n*   **전략 방향 재확인:** 다음 콘텐츠는 **'시스템 판매를 위한 증거(Proof)'**를 제시하는 데 집중해야 합니다. 즉, \"내가 시스템을 설계하고 실행하여 X 결과를 얻었다\"는 과정을 시각적으로 명료하게 보여주어야 합니다.\n\n**핵심 전략:** 콘텐츠의 80%는 '결과물 및 방법론 시연'에 할애하고, 20%만 일반적인 이론 설명에 사용합니다.\n\n---\n\n## 🗓️ 모닝 브리핑: 오늘 우선순위 작업 결정 및 분배\n\n오늘(2026-04-29)의 최우선 목표는 **전략적 방향 재확인**과 **실행 가능한 콘텐츠 프레임워크 구체화**입니다.\n\n| 순위 | 작업 내용 | 목적 | 담당 에이전트 |\n| :--- | :--- | :--- | :--- |\n| **1순위** | 수익화 목표(월 1천만원) 달성을 위한 최적의 콘텐츠 카테고리 및 타깃 청중 재확인 및 검증 | 현재의 수익 흐름과 목표 간의 괴리를 확인하고, 가장 고수익을 창출할 니치(Niche)를 확정한다. | 💰 Business (본 에이전트) |\n| **2순위** | 시스템 판매를 위한 MVP 콘텐츠의 핵심 구조(프레임워크) 정의 | 광고 수익 의존도를 낮추고 고가치 시스템 판매로 전환하기 위한 구체적인 영상 기획안 초안을 설계한다. | 🎥 Content & Strategy 에이전트 (분배 요청) |\n| **3순위** | 웹사이트 기능 요구사항 최종 검토 및 수익화 흐름(Monetization Flow) 최적화 | 잠재 고객이 시스템에 쉽게 접근하고 구매하도록 유도하는 랜딩 페이지 구조를 점검한다. | 💻 Web Development 에이전트 (분배 요청) |\n\n📝 다음 단계 제안: 🎥 Content & Strategy 에이전트에게 2순위 작업(MVP 콘텐츠 프레임워크 정의)을 즉시 시작하도록 지시하고, 💻 Web Development 에이전트에게는 웹사이트 MVP 구조 검토를 요청하여 동시 진행을 유도합니다.\n\n## [11:27:25] 📺 **YouTube** · _최신 트렌드와 시스템 설계 논리를 반영하여 이번 주에 업로드할 영상의 핵심 주제(시스템 설계)를 최종 확정하_\n\n📺 YouTube: 작업 시작합니다.\n\n## 🎯 CEO 지시 사항 수행: 시스템 설계 기반 영상 주제 및 스크립트 방향 확정\n\n현재의 목표는 광고 수익 의존도를 줄이고 **고가치 시스템 판매**로 전환하는 것입니다. 따라서 이번 주 영상은 단순한 정보 전달이 아닌, **'시스템 설계 방법론을 통한 구체적인 결과물 도출 과정'**을 증명하는 데 초점을 맞춰야 합니다.\n\n### 💡 최종 확정 영상 핵심 주제 (System Design Focus)\n\n**주제:** **\"AI 기반 자동화 시스템 설계: 월 1천만원 수익 구조를 만드는 3단계 워크플로우 프레임워크\"**\n\n**핵심 메시지:** 성공적인 유튜브 채널 운영은 운이나 재능이 아닌, 명확한 '시스템 설계'에 달려있다. 이 영상은 AI와 자동화를 활용하여 광고 수익을 넘어선 고수익 구조를 구축하는 구체적인 방법론(프레임워크)을 제시한다.\n\n### 🎬 상세 스크립트 방향 (Video Blueprint)\n\n| 섹션 | 길이 (예상) | 핵심 목표 및 내용 | 시각적 가이드라인 (톤앤매너) |\n| :--- | :--- | :--- | :--- |\n| **Hook (후크)** | 30초 이내 | **문제 제기 & 대안 제시:** \"당신이 아무리 열심히 해도 광고 수익에 머무는 이유는 시스템 부재 때문이다. 오늘, 월 1천만원을 설계하는 AI 기반 자동화 워크플로우를 공개한다.\" (강렬한 비주얼과 수치 강조) | 네온 블루/딥 블루 배경. 복잡한 흐름도(Flowchart)가 빠르게 지나감. |\n| **Part 1: 시스템의 기초 (Foundation)** | 2분 | **핵심 개념 정의:** 성공적인 시스템 설계에 필요한 3가지 핵심 요소 (입력-처리-출력, 리스크 관리, 확장성). 이론보다는 '왜' 이 프레임워크가 필요한지를 설명. | 명료한 다이어그램과 깔끔한 타이포그래피. 신뢰감을 주는 블루 톤 유지. |\n| **Part 2: AI 기반 워크플로우 설계 (The Blueprint)** | 5분 | **핵심 시스템 시연:** 실제 수익화 흐름(트래픽 유입 → 콘텐츠 생성 → 자동 배포/최적화 → 수익 창출)을 AI 툴을 사용하여 어떻게 자동화하는지 구체적인 단계별로 보여준다. **(이 부분이 가장 고가치 증명)** | 화면 녹화(Screen Recording) 중심. 각 단계는 깔끔한 UI와 시스템 설계도를 오버레이하여 시각적 명료성 극대화. |\n| **Part 3: 수익 극대화 및 확장 (Scaling & Monetization)** | 4분 | **시스템 적용 및 결과:** 설계된 시스템",
+    "tags": [
+      "시스템",
+      "설계",
+      "핵심",
+      "콘텐츠",
+      "목표",
+      "수익화"
+    ],
+    "ts": 1780574071869,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n1780574071869240",
+    "text": "# 첫 번째 장면 프롬프트\nid: c813059e-6660-42eb-b94c-bd6b4aab4e1d\ncategory: \"🎨 Visual Storytelling\"\nconfidence_score: 0.9\ntags: [프롬프트, 이미지생성]\nlast_reinforced: 2026-04-19\n---\n# 첫 번째 장면 프롬프트\n## 📌 한 줄 통찰\n> 애기와 토끼가 고래와 함께 바다에서 노는 장면을 요청하는 초기 이미지 생성 프롬프트입니다.\n## 📖 구조화된 지식\n- **목표:** 애기와 토끼, 그리고 고래가 등장하는 바다 장면을 생성합니다.\n- **사용 모델:** veo-3 (image-pro)\n- **주요 요청:** \"애기와 토끼가 바다에서 놀고있어. 고래도 함께 출연해 스타일은 그대로 유지하고 이미지 생성\"\n## 🔗 지식 연결\n- Parent: [[💡 Visual Storytelling]]\n- Related: [프롬프트, 이미지생성]\n- Raw Source: [[00_Raw/2026-04-19/4___19______________________________347b0dd7632380acbf74f073f659f567.md]]",
+    "tags": [
+      "💡 Visual Storytelling",
+      "00_Raw/2026-04-19/4___19______________________________347b0dd7632380acbf74f073f659f567.md",
+      "프롬프트",
+      "애기와",
+      "2026",
+      "번째",
+      "장면",
+      "visual"
+    ],
+    "ts": 1780574071869,
+    "category": "design",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718691630",
+    "text": "# 두 번째 장면 프롬프트 (연결)\nid: a8bc586c-0cdb-4137-bf41-89ac6d8467ac\ncategory: \"🎨 Visual Storytelling\"\nconfidence_score: 0.9\ntags: [프롬프트, 이미지생성]\nlast_reinforced: 2026-04-19\n---\n# 두 번째 장면 프롬프트 (연결)\n## 📌 한 줄 통찰\n> 첫 번째 장면의 이미지를 참고하여 올챙이가 귀여운 분홍색으로 변하며 하늘로 올라가는 마법 같은 과정을 요청하는 연속 이미지 생성 프롬프트입니다.\n## 📖 구조화된 지식\n- **목표:** 이전 장면에서 생성된 이미지를 참조하여, 물고기/올챙이의 마법 같은 변신을 표현합니다.\n- **참조:** 첫 번째 장면(Scene 1)에서 생성된 이미지를 참고하도록 지시합니다.\n- **주요 요청:** \"애기와 토끼가 바다에서 놀다가 올챙이를 발견했어. 올챙이가 아주 귀여운 분홍색으로 변하면서 하늘로 올라가. 스타일 그대로 유지해주고.\"\n## 🔗 지식 연결\n- Parent: [[Scene_1_Prompt]]\n- Related: [프롬프트, 이미지생성]\n- Raw Source: [[00_Raw/2026-04-19/4___19______________________________347b0dd7632380acbf74f073f659f567.md]]",
+    "tags": [
+      "Scene_1_Prompt",
+      "00_Raw/2026-04-19/4___19______________________________347b0dd7632380acbf74f073f659f567.md",
+      "번째",
+      "프롬프트",
+      "장면",
+      "연결",
+      "이미지를",
+      "2026"
+    ],
+    "ts": 1780574071869,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718695827",
+    "text": "# 4월19일 제이 멘토와 라이브 추억 (Visual Storytelling)\nid: 6245ad5a-3bdc-4a45-9377-c93b6e9b1305\ncategory: \"💡 Visual Storytelling\"\nconfidence_score: 0.9\ntags: [추억, 이미지생성, 스토리보드]\nlast_reinforced: 2026-04-19\n---\n# 4월19일 제이 멘토와 라이브 추억 (Visual Storytelling)\n## 📌 한 줄 통찰\n> 애기와 토끼의 바다 놀이에서 시작하여 올챙이가 하늘로 올라가는 아름다운 변신 과정을 이미지 생성 AI를 통해 스토리텔링한 기록입니다.\n## 📖 구조화된 지식\n- **첫 번째 장면 (Scene 1):** 애기와 토끼가 고래와 함께 바다에서 노는 장면을 생성하는 프롬프트 설정.\n- **두 번째 장면 (Scene 2):** 올챙이가 분홍색으로 변하며 하늘로 올라가는 마법 같은 변화를 연결하여 생성하는 프롬프트 설정.\n- **관계:** 두 장면은 서로 참조하며 하나의 연속된 이야기(Context)를 구성하고 있습니다.\n## 🔗 지식 연결\n- Parent: [[💡 Visual Storytelling]]\n- Related: [이미지생성, 스토리보드]\n- Raw Source: [[00_Raw/2026-04-19/4___19______________________________347b0dd7632380acbf74f073f659f567.md]]",
+    "tags": [
+      "💡 Visual Storytelling",
+      "00_Raw/2026-04-19/4___19______________________________347b0dd7632380acbf74f073f659f567.md",
+      "visual",
+      "storytelling",
+      "추억",
+      "2026",
+      "제이",
+      "멘토와"
+    ],
+    "ts": 1780574071869,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718698995",
+    "text": "# 영상 대본 풀-스크립트 심층 분석\nid: b5c6d7e8-f901-2345-6789-012345678901\ncategory: \"[[10_Wiki/🎬 Content Strategy]]\"\nconfidence_score: 0.9\ntags: [Narrative Analysis, Psychological Dynamics, Conflict Structure]\nlast_reinforced: 2026-04-20\n---\n# 영상 대본 풀-스크립트 심층 분석\n\n## 📌 한 줄 통찰\n> 극적인 상황을 연출하는 스토리텔링은 단순한 재미를 넘어, 시청자의 감정적 몰입과 행동(클릭/구독)을 유도하는 강력한 알고리즘 방어율 전략이다.\n\n## 📖 구조화된 지식\n- **갈등 구축:** '경쟁'과 '위협'(예: 물을 막는 것, 상금 경쟁)이라는 명확한 갈등 요소를 제시하여 시청자의 긴장감을 최고조로 끌어올린다.\n- **감정의 역이용:** 시청자가 원하는 결과(승리)를 얻기 위해 심리적 압박감(패배에 대한 두려움)을 극대화한다.\n- **반응 유도:** 중간중간에 불확실성(50/50 확률)과 빠른 전환(빠른 행동 요구)을 삽입하여 시청자가 다음 장면을 보게 만든다.\n- **갈등의 해소와 반전:** 최종 결과가 예상치 못한 방식으로 도출되거나, 경쟁자 간의 심리전이 추가되어 몰입도를 지속시킨다.\n\n## 🔗 지식 연결\n- Parent: [[10_Wiki/🚀 Mindset]]\n- Related: [[Psychological Warfare]], [[Storytelling]], [[Probability Theory]]\n- Raw Source: [[00_Raw/2026-04-20/MrBeast_Premium_10.md]]",
+    "tags": [
+      "10_Wiki/🎬 Content Strategy",
+      "10_Wiki/🚀 Mindset",
+      "Psychological Warfare",
+      "Storytelling",
+      "Probability Theory",
+      "00_Raw/2026-04-20/MrBeast_Premium_10.md",
+      "2026",
+      "영상",
+      "대본",
+      "스크립트",
+      "심층",
+      "분석"
+    ],
+    "ts": 1780574071869,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718694500",
+    "text": "# 피부 건강과 식습관의 시각적 대비 분석\nid: a1b2c3d4-e5f6-7890-abcd-ef0123456789\ncategory: \"💡 Topics\"\nconfidence_score: 0.9\ntags: [피부 건강, 식습관, 비주얼 심리학, 인포그래픽]\nlast_reinforced: 2026-04-21\n---\n# 피부 건강과 식습관의 시각적 대비 분석\n\n## 📌 한 줄 통찰\n> 피부와 안구의 건강은 섭취하는 음식과 생활 습관에 의해 극명하게 결정되며, 이를 시각적으로 대비하여 인지하는 것이 변화의 동기가 된다.\n\n## 📖 구조화된 지식\n- **피부 비교 (음식)**:\n    - **피부를 망치는 음식**: 라면, 튀김류, 당분이 많은 단 음식, 흰 빵, 피자/패스트푸드, 찬 음료, 아이스크림, 봉지 과자, 초콜릿.\n    - **피부를 살리는 음식**: 새싹 채소, 견과류(아몬드), 레몬수, 녹차, 베리류, 토마토, 오이, 잎채소, 충분한 수분 섭취.\n- **뇌 건강 비교 (습관)**:\n    - **뇌를 굳게 만드는 나쁜 습관**: 하루 종일 TV 시청, 무기력하게 멍때리기, 새로운 활동 시도 안 함, 사회적 교류 단절.\n    - **뇌를 젊게 만드는 좋은 습관**: 독서 및 글쓰기, 새로운 분야 공부(외국어 등), 정원 가꾸기 등 몰입하는 취미, 지인들과의 활발한 대화.\n- **안구 건강 비교 (식습관)**:\n    - **시력을 위협하는 식습관**: 가공당류(혈관 손상), 정제 탄수화물(안압 상승 유발), 트랜스 지방(황반 변성 위험), 고나트륨 식품(안구 건조증 악화).\n    - **안구를 살리는 슈퍼푸드**: 결명자 & 빌베리(안토시아닌: 시력 보호), 시금치 & 케일(루테인/지아잔틴: 황반 건강), 연어 & 호두(오메가3: 건조증 완화), 당근 & 단호박(비타민A: 야맹증 예방).\n- **성장 에너지 비교 (습관)**:\n    - **성장을 방해하는 습관**: 스마트폰 과다 사용, 구부정한 거북목 자세, 불규칙한 수면, 고탄수화물 간식, 운동 부족, 성장 호르몬 저하, 늦은 밤 야식, 비타민 D 결핍.\n    - **성장 촉진 습관**: 고함량 액상 칼슘/아연, 초유 유래 성장 인자(CBP), 바른 자세 교정 센서, 성장판 자극 운동, 딥슬립(깊은 잠) 유도.\n\n## 🔗 지식 연결\n- Parent: 💡 Topics\n- Related: [피부 관리 가이드라인, 영양학 기초, 습관 형성 전략]\n- Raw Source: 00_Raw/2026-04-21/______________4____21____349b0dd7632380fd918dfc04f02b7d7d.md",
+    "tags": [
+      "습관",
+      "피부",
+      "건강",
+      "비교",
+      "음식",
+      "성장"
+    ],
+    "ts": 1780574071870,
+    "category": "design",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718706327",
+    "text": "# 영상 성과 지표 및 SEO 분석\nid: a1b2c3d4-e5f6-7890-abcd-ef0123456789\ncategory: \"[[10_Wiki/📊 Metrics]]\"\nconfidence_score: 0.9\ntags: [YouTube SEO, KPI, Creator Economy]\nlast_reinforced: 2026-04-20\n---\n# 영상 성과 지표 및 SEO 분석\n\n## 📌 한 줄 통찰\n> 크리에이터의 성공은 단순히 조회수를 넘어, 명확한 KPI 설정과 매력적인 디스크립션 작성에 달려 있다.\n\n## 📖 구조화된 지식\n- **핵심 성과 지표 (KPI) 이해:** 영상 ID, 게시일, 조회수, 좋아요 수, 댓글 수를 정확히 측정하는 것이 중요하다.\n- **SEO 태그의 부재:** 태그 필드가 비어있는 경우, 관련 키워드를 전략적으로 삽입하여 검색 노출을 극대화해야 한다.\n- **디스크립션의 역할:** 영상 내용과 CTA(Call to Action)를 명확히 포함하여 시청자의 참여를 유도해야 한다.\n\n## 🔗 지식 연결\n- Parent: [[10_Wiki/🚀 Skills]]\n- Related: [[Probability Theory]], [[Psychological Warfare]], [[Marketing Strategy]]\n- Raw Source: [[00_Raw/2026-04-20/MrBeast_Premium_10.md]]",
+    "tags": [
+      "10_Wiki/📊 Metrics",
+      "10_Wiki/🚀 Skills",
+      "Probability Theory",
+      "Psychological Warfare",
+      "Marketing Strategy",
+      "00_Raw/2026-04-20/MrBeast_Premium_10.md",
+      "영상",
+      "seo",
+      "성과",
+      "지표",
+      "kpi",
+      "2026"
+    ],
+    "ts": 1780574071870,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718707272",
+    "text": "# Sample Pack / Combat AI\nid: a1b2c3d4-e5f6-7890-abcd-ef0123456789\ncategory: \"[[10_Wiki/🚀 Skills]]\"\nconfidence_score: 0.95\ntags: [Combat AI, Tactical Mindset, Neo Philosophy, Martial Arts Logic]\nlast_reinforced: 2026-04-20\n---\n# Sample Pack / Combat AI\n\n## 📌 한 줄 통찰\n> 진정한 전투는 물리적 힘이 아닌, 상대의 움직임을 예측하고 확률을 계산하는 심리적 무술이다.\n\n## 📖 구조화된 지식\n- **시스템 이해:** 모든 상황은 데이터와 확률로 구성되며, 시스템(상대방)의 작동 방식을 파악하는 것이 선행되어야 한다.\n- **중첩과 예측:** 상대가 여러 가능성 속에 중첩되어 있을 때, 가장 높은 확률을 가진 경로를 예측하고 대응한다.\n- **냉철한 실행:** 감정은 변수이며, 전투 상황에서는 오직 계산된 최적의 행동만을 선택한다.\n- **반격의 원리:** 적이 자신을 노린다는 전제 하에, 상대방의 움직임과 심리를 역으로 이용하는 전략을 구사한다.\n\n## 🔗 지식 연결\n- Parent: [[10_Wiki/🚀 Mindset]]\n- Related: [[Probability Theory]], [[Psychological Warfare]], [[Martial Arts Philosophy]]\n- Raw Source: [[00_Raw/2026-04-20/Sample Pack / Combat AI]]",
+    "tags": [
+      "10_Wiki/🚀 Skills",
+      "10_Wiki/🚀 Mindset",
+      "Probability Theory",
+      "Psychological Warfare",
+      "Martial Arts Philosophy",
+      "00_Raw/2026-04-20/Sample Pack / Combat AI",
+      "combat",
+      "sample",
+      "pack",
+      "2026",
+      "wiki",
+      "mindset"
+    ],
+    "ts": 1780574071870,
+    "category": "business",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718705409",
+    "text": "# Business 설정 (시크릿)\n# 💰 Business 설정 (시크릿)\n\n_이 파일은 `.gitignore`에 의해 깃 동기화에서 제외됩니다. API 키·토큰을 자유롭게 적으세요._",
+    "tags": [
+      "business",
+      "설정",
+      "시크릿",
+      "파일은",
+      "gitignore",
+      "의해"
+    ],
+    "ts": 1780574071870,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718703358",
+    "text": "# Business 에이전트 — 나의 미션\n# 📊 Business 에이전트 — 나의 미션\n\n> 🌞 24시간 업무가 켜져 있으면 이 미션을 향해 자동으로 한 스텝씩 일합니다.\n> 자유롭게 수정하세요. 비워두면 회사 공동 목표만 따라갑니다.\n\n## 장기 목표 (3~6개월)\n- 수익화 모델 1개 가설 검증 → 매출화\n- 핵심 KPI 대시보드 운영\n\n## 이번 주 목표\n- 가격·번들 옵션 2~3안 비교 메모\n- 경쟁사 3곳 ROI 분석\n\n## 작업 원칙\n- 결정 가능한 권고 (A/B 중 어느 쪽인지) + 근거 숫자",
+    "tags": [
+      "business",
+      "에이전트",
+      "나의",
+      "미션",
+      "목표",
+      "시간"
+    ],
+    "ts": 1780574071870,
+    "category": "business",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n1780574071870425",
+    "text": "# Business (Head of Business) 개인 메모리\n# 💰 Business (Head of Business) 개인 메모리\n\n_Business 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰는 패턴이 누적됩니다._\n\n## 학습 기록\n\n- [2026-04-27] 현재 유튜브 수익 광고수익 1000만원 달성을 위한 월별/주별 구체적인 콘텐츠 및 수익화 전략을 분석하고 제안할 준비를 시작하라. → 산출물 sessions/2026-04-27T12-26/business.md\n- [2026-04-27] 현재 유튜브 수익 1000만원 달성 목표 대비, 어떤 유형의 콘텐츠(니치) 테스트를 진행할지 전략적 질문 리스트를 작성하고 제안해달라. → 산출물 sessions/2026-04-27T12-35/business.md\n- [2026-04-28] 수익화 목표(광고 수익 1000만원) 달성을 위한 최적의 콘텐츠 카테고리 및 타깃 청중 설정에 대한 초기 전략 방향을 제시해줘. → 산출물 sessions/2026-04-28T06-03/business.md\n- [2026-04-28] 웹사이트의 주요 목적(수익화, 정보 제공, 커뮤니티 등)과 핵심 KPI를 정의하고, 어떤 기능을 포함해야 하는지 초기 요구사항을 설정하라. → 산출물 sessions/2026-04-28T07-27/business.md\n- [2026-04-28] 수익화 흐름(Monetization Flow)과 핵심 기능 요구사항(MVP Feature Set)을 정의하여 웹사이트의 비즈니스 목표를 설정해줘. → 산출물 sessions/2026-04-28T07-34/business.md\n- [2026-04-28] 현재 채널의 수익화 구조 분석, 잠재적 고수익 콘텐츠 주제 발굴, 그리고 목표 금액 달성을 위한 현실적인 월별 수익 목표(KPI)를 재설정하여 보고해줘. → 산출물 sessions/2026-04-28T11-13/business.md\n- [2026-04-29] 지난 목표(월 1천만원) 달성을 위한 현재의 수익화 흐름과 KPI를 분석하고, 다음 콘텐츠 기획이 이에 부합하는지 검토하여 전략 방향을 재확인하라. → 산출물 sessions/2026-04-29T02-25/business.md\n- [2026-04-29] 디자이너가 제시할 비주얼 가이드라인이 '시스템 설계 방법론 판매'라는 핵심 목표에 가장 잘 부합하는지 검토하고, 선택된 스타일이 고가치 시스템의 신뢰도를 극대화할 수 있는지 전략적 피드백을 제공하세요. → 산출물 sessions/2026-04-29T02-55/business.md\n- [2026-04-29] 수익화 목표(천만원 달성)에 부합하는 첫 번째 '시스템 설계 방법론' 주제를 선정하고, 해당 시스템이 포함해야 할 핵심 단계와 구조(프레임워크)를 정의하세요. → 산출물 sessions/2026-04-29T03-25/business.md\n- [2026-04-29] 시스템 설계 방법론 판매에 가장 적합한 잠재 고객 틈새시장(Niche) 후보군 3가지와 각 시장별 초기 수익 모델 시뮬레이션(가격 책정 포함)을 즉시 준비하세요. → 산출물 sessions/2026-04-29T04-04/business.md\n- [2026-04-29] Writer가 작성한 시스템 프레임워크의 내용이 고가치 상품으로서의 가격 책정, 가치 제안 및 KPI 측정 기준에 완벽하게 부합하는지 검토하고 판매 전략을 보강할 것. → 산출물 sessions/2026-04-29T06-39/business.md\n- [2026-04-29] 최근 확정된 '수익 극대화 시스템 3단계 프레임워크'의 각 단계별로 판매할 수 있는 고가치 상품(시스템) 아이디어를 3가지 도출하고, 각 시스템의 예상 가격대를 제시하여 콘텐츠 주제를 선정하는 데 필요한 비즈니스 목표를 설정하라. → 산출물 sessions/2026-04-29T12-13/business.md\n- [2026-04-29] 1단계 아이디어(A1, A2)를 기반으로 초기 고가치 상품(워크숍 또는 가이드)의 구체적인 판매 가격 책정 및 마케팅 전략 프레임워크를 즉시 수립하세요. → 산출물 sessions/2026-04-29T12-40/business.md\n- [2026-04-29] 시스템 설계 방법론에 기반하여, 유튜브 콘텐츠 주제와 연관된 고가치 상품의 초기 가격 구조 및 수익화 흐름(KPI 포함)을 프레임워크로 설계하고 초안을 작성합니다. → 산출물 sessions/2026-04-29T13-10/business.md\n- [2026-04-29] Writer와 Designer가 제공한 시스템 설계 프레임워크를 기반으로, '시스템 설계 방법론'에 대한 고가치 상품의 구체적인 가격 구조(Tier 설정)와 수익화 전략을 즉시 설계하고 초안을 작성하세요. → 산출물 sessions/2026-04-29T13-40/business.md\n- [2026-04-29] 확정된 시스템 설계 포지셔닝에 맞춰, 고가치 상품의 가격 구조(Pricing Structure)와 초기 수익화 전략을 검토하고 구체적인 제안을 준비하세요. → 산출물 sessions/2026-04-29T14-10/business.md\n- [2026-04-29] Writer가 작성할 시스템 설계 콘텐츠의 가치(고가치 판매)를 반영하여, '시스템 설계' 기반 상품의 초기 가격 구조 및 수익화 모델을 구체적으로 설계하고 제안하라. → 산출물 sessions/2026-04-29T14-13/business.md\n- [2026-04-29] 설계된 3단계 가격 구조를 바탕으로, Tier 2 상품('수익 극대화 시스템 설계 마스터')의 상세 커리큘럼과 초기 판매 문구를 최종 확정하여 고가치 포지셔닝을 강화하세요. → 산출물 sessions/2026-04-29T14-40/business.md\n- [2026-04-29] 시스템 설계 포지셔닝이 고가치 상품 판매로 이어지는지 검증하기 위한 초기 상품 가격 구조 설계를 즉시 착수하고, 시스템 모듈(Module 1)의 가치에 기반한 가격 모델을 제안하세요. → 산출물 sessions/2026-04-29T16-58/business.md\n- [2026-04-29] Tier 2 및 Tier 3 상품의 최종 가격 구조와 포지셔닝 전략을 검토하고, 이를 기반으로 마케팅에 사용할 핵심 가치 제안(Value Proposition) 문구를 작성하세요. → 산출물 sessions/2026-04-29T17-03/business.md",
+    "tags": [
+      "2026",
+      "business",
+      "산출물",
+      "sessions",
+      "시스템",
+      "수익화"
+    ],
+    "ts": 1780574071870,
+    "category": "business",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718704836",
+    "text": "# Business 페르소나 디테일\n# 💰 Business 페르소나 디테일\n\n_여기에 Business 에이전트에게 주고 싶은 추가 지시·말투·취향·예시 등을 자유롭게 적으세요._\n_매 호출 시 시스템 프롬프트에 자동 주입됩니다. (git에 동기화됨)_",
+    "tags": [
+      "business",
+      "페르소나",
+      "디테일",
+      "여기에",
+      "에이전트에게",
+      "주고"
+    ],
+    "ts": 1780574071870,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718702863",
+    "text": "# CEO 설정 (시크릿)\n# 🧭 CEO 설정 (시크릿)\n\n_이 파일은 `.gitignore`에 의해 깃 동기화에서 제외됩니다. API 키·토큰을 자유롭게 적으세요._",
+    "tags": [
+      "ceo",
+      "설정",
+      "시크릿",
+      "파일은",
+      "gitignore",
+      "의해"
+    ],
+    "ts": 1780574071870,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718701682",
+    "text": "# CEO (Chief Executive Agent) 개인 메모리\n# 🧭 CEO (Chief Executive Agent) 개인 메모리\n\n_CEO 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰는 패턴이 누적됩니다._\n\n## 학습 기록\n\n- [2026-04-27] 야 알았어~~~ 내가 말하는건 한번 테스트 해달라구 → 보고서 sessions/2026-04-27T12-35/_report.md\n- [2026-04-28] 유튜브 기획해 → 보고서 sessions/2026-04-28T06-03/_report.md\n- [2026-04-28] 야 유튜브 기회개호바 → 보고서 sessions/2026-04-28T06-18/_report.md\n- [2026-04-28] 웹사이트 개발해 → 보고서 sessions/2026-04-28T07-27/_report.md\n- [2026-04-28] hey create a website → 보고서 sessions/2026-04-28T07-34/_report.md\n- [2026-04-28] 유튜브 → 보고서 sessions/2026-04-28T08-58/_report.md\n- [2026-04-28] 야 이번달 무조건 천만원 넘게 벌어야해 → 보고서 sessions/2026-04-28T11-13/_report.md\n- [2026-04-29] [모닝 브리핑] 오늘 날짜는 2026-04-29입니다. 회사 목표(goals.md)와 지금까지의 의사결정 로그를 바탕으로 오늘 우리 회사가 우선순위로 처리해야 할 작업 3가지를 결정하고, 각 작업을 적절한 에이전트에게 분배하세요. → 보고서 sessions/2026-04-29T02-25/_report.md\n- [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·최근 의사결정·각 에이전트 메모리를 검토해서 지금 가장 가치 있는 단일 작업 1개를 결정하고, 적절한 1~2명 에이전트에게 분배해서 실행하세요. → 보고서 sessions/2026-04-29T02-55/_report.md\n- [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·최근 의사결정·각 에이전트 메모리를 검토해서 지금 가장 가치 있는 단일 작업 1개를 결정하고, 적절한 1~2명 에이전트에게 분배해서 실행하세요. → 보고서 sessions/2026-04-29T03-25/_report.md\n- [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·각 에이전트의 개인 목표(_agents/{id}/goal.md)·최근 의사결정·메모리를 검토해서 지금 가장 가치 있는 단일 작업 1개를 결정하고, 적절한 1~2명 에이전트에게 분배해서 실행하세요. 같은 산출물을 반복하지 마세요 — 메모리에 비슷한 항목이 24시간 내에 있으면 다른 각도로 진전시키세요. → 보고서 sessions/2026-04-29T04-04/_report.md\n- [2026-04-29] [수동 한 스텝 — YouTube] YouTube 에이전트의 개인 목표(_agents/youtube/goal.md)를 향해 다음 한 스텝을 실행하세요. 반드시 youtube 에이전트에게 작업을 분배하세요. → 보고서 sessions/2026-04-29T06-10/_report.md\n- [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·각 에이전트의 개인 목표(_agents/{id}/goal.md)·최근 의사결정·메모리를 검토해서 지금 가장 가치 있는 단일 작업 1개를 결정하고, 적절한 1~2명 에이전트에게 분배해서 실행하세요. 같은 산출물을 반복하지 마세요 — 메모리에 비슷한 항목이 24시간 내에 있으면 다른 각도로 진전시키세요. → 보고서 sessions/2026-04-29T06-39/_report.md\n- [2026-04-29] 일 시작하자 → 보고서 sessions/2026-04-29T07-53/_report.md\n- [2026-04-29] [도구 실행 — YouTube → 🔭 경쟁 채널 분석] YouTube 에이전트에게 다음 도구를 즉시 실행하라고 지시하세요. 반드시 youtube 에이전트에게 분배. 도구: competitor_brief. 실행 명령 (정확히 이 형식): <run_command>cd \"/Users/jay/Downloads/지식메모리/_agents/youtube/tools\" && python competitor_brief.py</run_command>. 실행 후 출력을 분석해 다음 액션을 한 줄로 제안하세요. → 보고서 sessions/2026-04-\n- [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·각 에이전트의 개인 목표(_agents/{id}/goal.md)·최근 의사결정·메모리를 검토해서 지금 가장 가치 있는 단일 작업 1개를 결정하고, 적절한 1~2명 에이전트에게 분배해서 실행하세요. 같은 산출물을 반복하지 마세요 — 메모리에 비슷한 항목이 24시간 내에 있으면 다른 각도로 진전시키세요. → 보고서 sessions/2026-04-29T09-26/_report.md\n- [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·각 에이전트의 개인 목표(_agents/{id}/goal.md)·최근 의사결정·메모리를 검토해서 지금 가장 가치 있는 단일 작업 1개를 결정하고, 적절한 1~2명 에이전트에게 분배해서 실행하세요. 같은 산출물을 반복하지 마세요 — 메모리에 비슷한 항목이 24시간 내에 있으면 다른 각도로 진전시키세요. → 보고서 sessions/2026-04-29T09-56/_report.md\n- [2026-04-29] 유튜브 컨텐츠 기획하는데 미스터비스트 유튜브 1위처럼 생각해서 기획해라! → 보고서 sessions/2026-04-29T10-54/_report.md\n- [2026-04-29] 야 유튜브 기획해 → 보고서 sessions/2026-04-29T11-10/_report.md\n- [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·각 에이전트의 개인 목표(_agents/{id}/goal.md)·최근 의사결정·메모리를 검토해서 지금 가장 가치 있는 단일 작업 1개를 결정하고, 적절한 1~2명 에이전트에게 분배해서 실행하세요. 같은 산출물을 반복하지 마세요 — 메모리에 비슷한 항목이 24시간 내에 있으면 다른 각도로 진전시키세요. → 보고서 sessions/2026-04-29T11-13/_report.md\n- [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·각 에이전트의 개인 목표(_agents/{id}/goal.md)·최근 의사결정·메모리를 검토해서 지금 가장 가치 있는 단일 작업 1개를 결정하고, 적절한 1~2명 에이전트에게 분배해서 실행하세요. 같은 산출물을 반복하지 마세요 — 메모리에 비슷한 항목이 24시간 내에 있으면 다른 각도로 진전시키세요. → 보고서 sessions/2026-04-29T11-40/_report.md\n- [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·각 에이전트의 개인 목표(_agents/{id}/goal.md)·최근 의사결정·메모리를 검토해서 지금 가장 가치 있는 단일 작업 1개를 결정하고, 적절한 1~2명 에이전트에게 분배해서 실행하세요. 같은 산출물을 반복하지 마세요 — 메모리에 비슷한 항목이 24시간 내에 있으면 다른 각도로 진전시키세요. → 보고서 sessions/2026-04-29T11-43/_report.md\n- [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·각 에이전트의 개인 목표(_agents/{id}/goal.md)·최근 의사결정·메모리를 검토해서 지금 가장 가치 있는 단일 작업 1개를 결정하고, 적절한 1~2명 에이전트에게 분배해서 실행하세요. 같은 산출물을 반복하지",
+    "tags": [
+      "2026",
+      "보고서",
+      "sessions",
+      "report",
+      "목표",
+      "에이전트에게"
+    ],
+    "ts": 1780574071870,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718704432",
+    "text": "# CEO 페르소나 디테일\n# 🧭 CEO 페르소나 디테일\n\n_여기에 CEO 에이전트에게 주고 싶은 추가 지시·말투·취향·예시 등을 자유롭게 적으세요._\n_매 호출 시 시스템 프롬프트에 자동 주입됩니다. (git에 동기화됨)_",
+    "tags": [
+      "ceo",
+      "페르소나",
+      "디테일",
+      "여기에",
+      "에이전트에게",
+      "주고"
+    ],
+    "ts": 1780574071870,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n1780574071871162",
+    "text": "# Designer 설정 (시크릿)\n# 🎨 Designer 설정 (시크릿)\n\n_이 파일은 `.gitignore`에 의해 깃 동기화에서 제외됩니다. API 키·토큰을 자유롭게 적으세요._\n\n## 디자인 도구\n- FIGMA_TOKEN: \n- STITCH_API_KEY:",
+    "tags": [
+      "designer",
+      "설정",
+      "시크릿",
+      "api",
+      "파일은",
+      "gitignore"
+    ],
+    "ts": 1780574071871,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718716170",
+    "text": "# Designer 에이전트 — 나의 미션\n# 🎨 Designer 에이전트 — 나의 미션\n\n> 🌞 24시간 업무가 켜져 있으면 이 미션을 향해 자동으로 한 스텝씩 일합니다.\n> 자유롭게 수정하세요. 비워두면 회사 공동 목표만 따라갑니다.\n\n## 장기 목표 (3~6개월)\n- 브랜드 컬러·타이포·로고 시스템 확정\n- 썸네일/포스트 템플릿 3종 표준화\n\n## 이번 주 목표\n- 디자인 브리프 1건 작성 (레퍼런스 5장 포함)\n- 썸네일 컨셉 3안 비교 정리\n\n## 작업 원칙\n- 텍스트 설명만 X — 색상 코드·폰트명·레이아웃 좌표까지 구체적으로",
+    "tags": [
+      "designer",
+      "에이전트",
+      "나의",
+      "미션",
+      "목표",
+      "썸네일"
+    ],
+    "ts": 1780574071871,
+    "category": "design",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718711963",
+    "text": "# Designer (Lead Designer) 개인 메모리\n# 🎨 Designer (Lead Designer) 개인 메모리\n\n_Designer 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰는 패턴이 누적됩니다._\n\n## 학습 기록\n\n- [2026-04-27] 테스트를 위한 최소한의 브랜드 비주얼 가이드라인(톤앤매너) 초안을 제공하여 콘텐츠 제작의 기준점을 설정해달라. → 산출물 sessions/2026-04-27T12-35/designer.md\n- [2026-04-28] Writer가 작성한 스크립트의 핵심 메시지를 기반으로, 신뢰감과 미래지향적인 느낌을 주는 유튜브 썸네일 디자인 콘셉트(색상 팔레트, 주요 타이포그래피 스타일)를 제안해 주세요. → 산출물 sessions/2026-04-28T06-18/designer.md\n- [2026-04-28] JAY CORP의 브랜드 톤앤매너(신뢰감, 미래지향적)를 반영하여 웹사이트의 전체적인 시각적 스타일과 레이아웃 컨셉을 제안하라. → 산출물 sessions/2026-04-28T07-27/designer.md\n- [2026-04-28] 이전 결정 사항인 블루/네온 색상 기반의 신뢰감 있고 미래지향적인 디자인 시스템(컬러 팔레트, 타이포그래피 가이드라인)을 최종 확정하고 Hero Section 와이어프레임을 제시해줘. → 산출물 sessions/2026-04-28T07-34/designer.md\n- [2026-04-28] 선정된 콘텐츠 아이디어의 핵심 메시지를 반영하여, 기존의 블루/네온 디자인 시스템을 유지하면서 시청자의 신뢰감을 극대화할 수 있는 썸네일 비주얼 컨셉 3가지를 제안하라. → 산출물 sessions/2026-04-28T08-58/designer.md\n- [2026-04-28] 새로운 고수익 전략에 맞춰 브랜드 비주얼(블루/네온 테마)을 유지하면서도 신뢰감과 수익성을 극대화하는 방향으로 디자인 가이드라인을 재검토하고, 핵심 KPI를 시각화할 레이아웃 초안을 준비해줘. → 산출물 sessions/2026-04-28T11-13/designer.md\n- [2026-04-29] 유튜브 및 웹사이트의 블루/네온 브랜드 가이드라인을 기준으로, 이번 주 콘텐츠에 사용될 핵심 비주얼 요소(썸네일 콘셉트)의 초안을 3가지 제시하라. → 산출물 sessions/2026-04-29T02-25/designer.md\n- [2026-04-29] 이전 논의된 썸네일 콘셉트 중 가장 강력한 것을 선택하고, '시스템 설계자' 테마에 맞춰 최종 컬러 팔레트(Deep Blue/Neon 기반) 및 타이포그래피 스타일을 확정하여 웹사이트와 유튜브 적용 가이드라인 초안을 작성하세요. → 산출물 sessions/2026-04-29T02-55/designer.md\n- [2026-04-29] Business에서 정의한 시스템 프레임워크를 시각적으로 표현할 수 있는 핵심 프로세스 다이어그램 템플릿을 Deep Blue/Neon 스타일로 디자인하여 MVP 콘텐츠의 비주얼 기반을 마련하세요. → 산출물 sessions/2026-04-29T03-25/designer.md\n- [2026-04-29] 영상 스크립트 작성을 위해 'Deep Blue/Neon' 색상 팔레트를 적용한 비주얼 가이드라인(썸네일 및 영상 내 핵심 시각 요소)을 구체적으로 정의하여 제공하세요. 이는 시스템 신뢰도를 증명하는 데 중점을 둡니다. → 산출물 sessions/2026-04-29T06-10/designer.md\n- [2026-04-29] YouTube 영상의 인트로 화면, 자막 스타일, 그리고 전체 채널 브랜딩에 Deep Blue와 Neon 색상을 사용하여 신뢰감과 미래지향적인 '시스템 설계자' 이미지를 시각적으로 강화하는 디자인 가이드라인을 즉시 확정한다. → 산출물 sessions/2026-04-29T07-53/designer.md\n- [2026-04-29] 확정된 Deep Blue/Neon 디자인 시스템(신뢰감 및 미래지향적 느낌)을 웹사이트와 모든 콘텐츠의 비주얼 가이드라인으로 즉시 확정하고 적용할 수 있는 최종 스타일 가이드를 생성하세요. → 산출물 sessions/2026-04-29T09-26/designer.md\n- [2026-04-29] 확립된 Deep Blue/Neon 비주얼 시스템을 적용하여, '시스템 설계 방법론'의 핵심 내용을 담는 고가치 콘텐츠(시스템 프레임워크 설명)의 디자인 템플릿 및 마스터 레이아웃을 즉시 제작하라. CTA 부분에는 Neon Cyan 색상을 반드시 사용해야 한다. → 산출물 sessions/2026-04-29T09-56/designer.md\n- [2026-04-29] 기획된 콘셉트 중 가장 잠재력이 높은 영상 1개의 핵심 비주얼(썸네일)에 대해 Deep Blue/Neon 테마를 활용하여 시각적 충격과 신뢰도를 동시에 극대화하는 디자인 브리프와 초안을 제시하세요. → 산출물 sessions/2026-04-29T10-54/designer.md\n- [2026-04-29] 최종 콘텐츠의 브랜드 아이덴티티(Deep Blue/Neon)를 적용한 영상 인트로 화면 디자인 템플릿(인트로 타이틀 포함)과 핵심 시각 요소(시스템 흐름도)에 대한 구체적인 비주얼 브리프를 작성하세요. → 산출물 sessions/2026-04-29T11-10/designer.md\n- [2026-04-29] 제시된 후크 아이디어 중 가장 강력하다고 판단되는 콘셉트를 선정하고, 'Deep Blue/Neon' 디자인 시스템을 활용하여 인트로 화면에 적용할 수 있는 시각적 레이아웃 및 텍스트 배치 초안을 설계하세요. → 산출물 sessions/2026-04-29T11-13/designer.md\n- [2026-04-29] 확정된 시스템 디자인 콘셉트(Deep Blue/Neon 기반)가 유튜브 인트로 화면 및 핵심 시각 자료에 완벽하게 적용될 수 있도록 최종 비주얼 가이드라인과 템플릿을 정리하여 제공하세요. → 산출물 sessions/2026-04-29T11-40/designer.md\n- [2026-04-29] 작성된 스크립트에 맞춰 Deep Blue/Neon 테마를 적용한 영상의 시각적 흐름과 각 단계별 강조할 비주얼 가이드라인(폰트, 색상 배치 등)을 구체적으로 제시하세요. → 산출물 sessions/2026-04-29T11-43/designer.md\n- [2026-04-29] 기존 확정된 'Deep Blue/Neon' 디자인 시스템을 기반으로, 유튜브 영상 인트로 화면(Hook) 및 핵심 다이어그램에 대한 최종 시각적 가이드라인(폰트, 색상 배치, 레이아웃)을 상세하게 정의하라. 모든 CTA는 Neon Cyan 색상을 반드시 사용하도록 명시하라. → 산출물 sessions/2026-04-29T12-13/designer.md\n- [2026-04-29] 최종 확정된 브랜드 아이덴티티인 Deep Blue/Neon 기반의 인트로 및 핵심 슬라이드 스타일 디자인 템플릿(인트로, Step 1, Step 2)을 제작하여 제공하세요. CTA에는 Neon Cyan 색상을 명확히 적용해야 합니다. → 산출물 sessions/2026-04-29T12-43/designer.md\n- [2026-04-29] Business와 YouTube에서 확정된 시스템 프레임워크를 시각적으로 표현할 수 있도록, Deep Blue/Neon 기반의 최종 콘텐츠 인트로 화면 및 핵심 슬라이드 디자인 템플릿을 즉시 구현합니다. → 산출물 sessions/2026-04-29T13-10/designer.md\n- [2026-04-29] 확정된 Deep Blue/Neon 비주얼 가이드라인(시스템 신뢰도 확보)에 따라, 영상의 인트로 화면과 핵심 프레임워크 슬라이드 3가지를 디자인 시안으로 즉시 제작하세요. CTA 부분에는 Neon Cyan 색상을 반드시 강조해야 합니다. → 산출물 sessions/2026-04-29T13-13/designer.md\n- [2026-04-29] Writer가 제공한 스크립트를 바탕으로 인트로 화면과 핵심 슬라이드의 Deep Blue/Neon 디자인 시스템(CTA 강조)을 즉시 시각화하여 초안을 제작하세요. → 산출물 sessions/2026-04-29T",
+    "tags": [
+      "2026",
+      "designer",
+      "산출물",
+      "sessions",
+      "neon",
+      "디자인"
+    ],
+    "ts": 1780574071871,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n1780574071871584",
+    "text": "# Designer 페르소나 디테일\n# 🎨 Designer 페르소나 디테일\n\n_여기에 Designer 에이전트에게 주고 싶은 추가 지시·말투·취향·예시 등을 자유롭게 적으세요._\n_매 호출 시 시스템 프롬프트에 자동 주입됩니다. (git에 동기화됨)_",
+    "tags": [
+      "designer",
+      "페르소나",
+      "디테일",
+      "여기에",
+      "에이전트에게",
+      "주고"
+    ],
+    "ts": 1780574071871,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718717178",
+    "text": "# Developer 설정 (시크릿)\n# 💻 Developer 설정 (시크릿)\n\n_이 파일은 `.gitignore`에 의해 깃 동기화에서 제외됩니다. API 키·토큰을 자유롭게 적으세요._",
+    "tags": [
+      "developer",
+      "설정",
+      "시크릿",
+      "파일은",
+      "gitignore",
+      "의해"
+    ],
+    "ts": 1780574071871,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718715817",
+    "text": "# Developer 에이전트 — 나의 미션\n# 💻 Developer 에이전트 — 나의 미션\n\n> 🌞 24시간 업무가 켜져 있으면 이 미션을 향해 자동으로 한 스텝씩 일합니다.\n> 자유롭게 수정하세요. 비워두면 회사 공동 목표만 따라갑니다.\n\n## 장기 목표 (3~6개월)\n- 반복 업무 자동화 스크립트 5개 운영\n- 데이터 파이프라인 / API 연결 안정화\n\n## 이번 주 목표\n- 가장 시간 잡아먹는 수동 작업 1개 자동화\n- 기존 스크립트 1개 리팩터·테스트 보강\n\n## 작업 원칙\n- 항상 실행 가능한 코드 + 사용법 1줄\n- 외부 호출은 키 노출 없이 환경변수로",
+    "tags": [
+      "developer",
+      "에이전트",
+      "나의",
+      "미션",
+      "시간",
+      "목표"
+    ],
+    "ts": 1780574071871,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718716361",
+    "text": "# Developer (Lead Engineer) 개인 메모리\n# 💻 Developer (Lead Engineer) 개인 메모리\n\n_Developer 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰는 패턴이 누적됩니다._\n\n## 학습 기록\n\n- [2026-04-28] 웹사이트 개발에 필요한 기술 스택(프론트엔드/백엔드)에 대한 초기 분석 및 데이터 파이프라인 구상을 시작하라. → 산출물 sessions/2026-04-28T07-27/developer.md\n- [2026-04-28] Business에서 정의된 요구사항과 Designer의 비주얼 가이드라인을 기반으로 Next.js 스택을 사용한 초기 MVP 아키텍처 및 데이터베이스 스키마 설계를 즉시 시작해줘. → 산출물 sessions/2026-04-28T07-34/developer.md\n- [2026-04-29] Next.js 기반 웹사이트 개발 시, Designer가 제공한 Deep Blue/Neon 디자인 시스템과 Tailwind CSS 커스텀 클래스를 100% 반영하여 MVP 구조를 재점검하고 시작하세요. → 산출물 sessions/2026-04-29T09-26/developer.md",
+    "tags": [
+      "2026",
+      "developer",
+      "개인",
+      "산출물",
+      "sessions",
+      "lead"
+    ],
+    "ts": 1780574071871,
+    "category": "design",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718717317",
+    "text": "# Developer 페르소나 디테일\n# 💻 Developer 페르소나 디테일\n\n_여기에 Developer 에이전트에게 주고 싶은 추가 지시·말투·취향·예시 등을 자유롭게 적으세요._\n_매 호출 시 시스템 프롬프트에 자동 주입됩니다. (git에 동기화됨)_",
+    "tags": [
+      "developer",
+      "페르소나",
+      "디테일",
+      "여기에",
+      "에이전트에게",
+      "주고"
+    ],
+    "ts": 1780574071871,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718714021",
+    "text": "# ️ Editor 설정 (시크릿)\n# ✂️ Editor 설정 (시크릿)\n\n_이 파일은 `.gitignore`에 의해 깃 동기화에서 제외됩니다. API 키·토큰을 자유롭게 적으세요._",
+    "tags": [
+      "editor",
+      "설정",
+      "시크릿",
+      "파일은",
+      "gitignore",
+      "의해"
+    ],
+    "ts": 1780574071871,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718715925",
+    "text": "# ️ Editor 에이전트 — 나의 미션\n# ✂️ Editor 에이전트 — 나의 미션\n\n> 🌞 24시간 업무가 켜져 있으면 이 미션을 향해 자동으로 한 스텝씩 일합니다.\n> 자유롭게 수정하세요. 비워두면 회사 공동 목표만 따라갑니다.\n\n## 장기 목표 (3~6개월)\n- 영상 편집 디렉션 템플릿 (오프닝·B-roll·아웃트로) 표준화\n- 평균 컷 리듬·자막 톤 가이드 확립\n\n## 이번 주 목표\n- 최근 영상 1편 컷·자막·B-roll 디렉션 작성\n- 스크립트 1편 다듬기 (불필요 문장 제거)\n\n## 작업 원칙\n- 막연한 \"다듬어줘\" X — 시간 코드 + 구체 액션",
+    "tags": [
+      "editor",
+      "에이전트",
+      "나의",
+      "미션",
+      "시간",
+      "목표"
+    ],
+    "ts": 1780574071871,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718716486",
+    "text": "# ️ Editor (Video & Content Editor) 개인 메모리\n# ✂️ Editor (Video & Content Editor) 개인 메모리\n\n_Editor 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰는 패턴이 누적됩니다._\n\n## 학습 기록",
+    "tags": [
+      "editor",
+      "개인",
+      "video",
+      "content",
+      "메모리",
+      "쓰는"
+    ],
+    "ts": 1780574071871,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718711293",
+    "text": "# ️ Editor 페르소나 디테일\n# ✂️ Editor 페르소나 디테일\n\n_여기에 Editor 에이전트에게 주고 싶은 추가 지시·말투·취향·예시 등을 자유롭게 적으세요._\n_매 호출 시 시스템 프롬프트에 자동 주입됩니다. (git에 동기화됨)_",
+    "tags": [
+      "editor",
+      "페르소나",
+      "디테일",
+      "여기에",
+      "에이전트에게",
+      "주고"
+    ],
+    "ts": 1780574071871,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718712474",
+    "text": "# Instagram 설정 (시크릿)\n# 📷 Instagram 설정 (시크릿)\n\n_이 파일은 `.gitignore`에 의해 깃 동기화에서 제외됩니다. API 키·토큰을 자유롭게 적으세요._\n\n## Meta Graph API\n- META_ACCESS_TOKEN: \n- INSTAGRAM_BUSINESS_ID:",
+    "tags": [
+      "instagram",
+      "설정",
+      "시크릿",
+      "api",
+      "meta",
+      "파일은"
+    ],
+    "ts": 1780574071871,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718717071",
+    "text": "# Instagram 에이전트 — 나의 미션\n# 📸 Instagram 에이전트 — 나의 미션\n\n> 🌞 24시간 업무가 켜져 있으면 이 미션을 향해 자동으로 한 스텝씩 일합니다.\n> 자유롭게 수정하세요. 비워두면 회사 공동 목표만 따라갑니다.\n\n## 장기 목표 (3~6개월)\n- 피드 톤앤매너 확립 + 팔로워 5천 도달\n- 릴스 평균 도달 1만 이상\n\n## 이번 주 목표\n- 릴스 기획 3개 (훅·보이스오버·자막 포함)\n- 캡션·해시태그 패턴 정리\n\n## 작업 원칙\n- 매 산출물마다 게시 시간 + 후속 스토리 아이디어 1개",
+    "tags": [
+      "instagram",
+      "에이전트",
+      "나의",
+      "미션",
+      "시간",
+      "목표"
+    ],
+    "ts": 1780574071871,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718719077",
+    "text": "# Instagram (Head of Instagram) 개인 메모리\n# 📷 Instagram (Head of Instagram) 개인 메모리\n\n_Instagram 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰는 패턴이 누적됩니다._\n\n## 학습 기록",
+    "tags": [
+      "instagram",
+      "개인",
+      "head",
+      "메모리",
+      "쓰는",
+      "학습"
+    ],
+    "ts": 1780574071871,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718712119",
+    "text": "# Instagram 페르소나 디테일\n# 📷 Instagram 페르소나 디테일\n\n_여기에 Instagram 에이전트에게 주고 싶은 추가 지시·말투·취향·예시 등을 자유롭게 적으세요._\n_매 호출 시 시스템 프롬프트에 자동 주입됩니다. (git에 동기화됨)_",
+    "tags": [
+      "instagram",
+      "페르소나",
+      "디테일",
+      "여기에",
+      "에이전트에게",
+      "주고"
+    ],
+    "ts": 1780574071871,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718713770",
+    "text": "# Researcher 설정 (시크릿)\n# 🔍 Researcher 설정 (시크릿)\n\n_이 파일은 `.gitignore`에 의해 깃 동기화에서 제외됩니다. API 키·토큰을 자유롭게 적으세요._",
+    "tags": [
+      "researcher",
+      "설정",
+      "시크릿",
+      "파일은",
+      "gitignore",
+      "의해"
+    ],
+    "ts": 1780574071871,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718715573",
+    "text": "# Researcher 에이전트 — 나의 미션\n# 🔍 Researcher 에이전트 — 나의 미션\n\n> 🌞 24시간 업무가 켜져 있으면 이 미션을 향해 자동으로 한 스텝씩 일합니다.\n> 자유롭게 수정하세요. 비워두면 회사 공동 목표만 따라갑니다.\n\n## 장기 목표 (3~6개월)\n- 산업·경쟁사 트렌드 리포트 월 1회 발행\n- 인용 가능한 1차 자료 라이브러리 구축\n\n## 이번 주 목표\n- 우리 분야 트렌드 5개 짧은 메모\n- 경쟁사 2곳 최근 활동·성공 콘텐츠 정리\n\n## 작업 원칙\n- 출처 링크 필수, 의견과 사실 분리해서 표기",
+    "tags": [
+      "researcher",
+      "에이전트",
+      "나의",
+      "미션",
+      "목표",
+      "경쟁사"
+    ],
+    "ts": 1780574071871,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718714038",
+    "text": "# Researcher (Trend & Data Researcher) 개인 메모리\n# 🔍 Researcher (Trend & Data Researcher) 개인 메모리\n\n_Researcher 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰는 패턴이 누적됩니다._\n\n## 학습 기록\n\n- [2026-04-28] 자가학습 및 실용적 실행 관련 유튜브 채널의 현재 트렌드, 경쟁 채널 분석, 잠재적인 틈새시장(Niche)을 데이터 기반으로 수집하고 요약해줘. → 산출물 sessions/2026-04-28T06-03/researcher.md\n- [2026-04-28] 경쟁 채널 중 'AI 기반 자동화 시스템' 분야에서 현재 가장 높은 조회수를 기록하고 있는 상위 5개 영상의 주제와 후크(Hook) 전략을 분석하여 트렌드를 파악하고 새로운 아이디어를 제안해 주세요. → 산출물 sessions/2026-04-28T06-18/researcher.md\n- [2026-04-28] AI 기반 워크플로우 자동화 마스터 채널과 관련된 현재 유튜브 트렌드 및 경쟁사 영상 주제를 분석하고, 수익화를 극대화할 수 있는 구체적인 콘텐츠 아이디어 5가지를 리서치하여 보고하라. → 산출물 sessions/2026-04-28T08-58/researcher.md\n- [2026-04-28] 경쟁사 및 현재 채널의 데이터 기반으로 광고 단가 상승 또는 시스템 판매 기회를 극대화할 수 있는 최신 트렌드와 경쟁 우위 전략을 리서치하고 요약해줘. → 산출물 sessions/2026-04-28T11-13/researcher.md\n- [2026-04-29] 미스터비스트 채널의 성공 공식(돈, 스펙터클, 심리적 딜레마)을 분석하고, 현재 시청자들이 선호하는 고수익/고충격 콘텐츠 트렌드를 데이터 기반으로 요약하여 제안하세요. → 산출물 sessions/2026-04-29T10-54/researcher.md\n- [2026-04-29] 시스템 설계 및 AI 자동화 분야의 경쟁 채널 트렌드와 시청자 관심사를 분석하여, '시스템 설계 방법론' 판매에 가장 적합한 핵심 콘텐츠 주제 3가지를 도출하고 각 주제별 예상 수익 잠재력을 분석하세요. → 산출물 sessions/2026-04-29T11-10/researcher.md\n- [2026-04-29] 미스터비스트 스타일의 성공적인 영상 포맷 중 '돈(Stakes) + 시각적 충격 + 심리적 딜레마' 요소를 극대화하는 트렌드를 분석하고, 시스템 설계 주제에 적용할 수 있는 구체적인 후크 아이디어 5가지를 제시하세요. → 산출물 sessions/2026-04-29T11-13/researcher.md\n- [2026-04-29] 경쟁 채널 분석을 통해 현재 시장에서 가장 높은 반응을 얻는 '시스템 설계' 관련 키워드와 잠재적 고가치 상품 포지셔닝에 대한 데이터를 수집하고 요약하세요. → 산출물 sessions/2026-04-29T12-10/researcher.md\n- [2026-04-29] 경쟁 채널(특히 미스터비스트 스타일)의 성공 요인과 인기 주제에 대한 트렌드 데이터를 수집하고 분석하여 다음 영상 아이디어의 방향성을 제시해 주세요. → 산출물 sessions/2026-04-29T16-34/researcher.md",
+    "tags": [
+      "2026",
+      "researcher",
+      "산출물",
+      "sessions",
+      "현재",
+      "경쟁"
+    ],
+    "ts": 1780574071871,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718711898",
+    "text": "# Researcher 페르소나 디테일\n# 🔍 Researcher 페르소나 디테일\n\n_여기에 Researcher 에이전트에게 주고 싶은 추가 지시·말투·취향·예시 등을 자유롭게 적으세요._\n_매 호출 시 시스템 프롬프트에 자동 주입됩니다. (git에 동기화됨)_",
+    "tags": [
+      "researcher",
+      "페르소나",
+      "디테일",
+      "여기에",
+      "에이전트에게",
+      "주고"
+    ],
+    "ts": 1780574071871,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718716428",
+    "text": "# Secretary 설정 (시크릿)\n# 📱 Secretary 설정 (시크릿)\n\n_이 파일은 `.gitignore`에 의해 깃 동기화에서 제외됩니다. API 키·토큰을 자유롭게 적으세요._\n\n## 텔레그램 봇\n_BotFather에서 봇을 만들고 토큰을 받으세요. https://t.me/BotFather_\n_그리고 본인 채팅 ID를 알아내려면 https://t.me/userinfobot 에 메시지를 보내세요._\n\n- TELEGRAM_BOT_TOKEN: \n- TELEGRAM_CHAT_ID:",
+    "tags": [
+      "secretary",
+      "설정",
+      "시크릿",
+      "토큰을",
+      "botfather",
+      "https"
+    ],
+    "ts": 1780574071871,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718711154",
+    "text": "# ️ Secretary 에이전트 — 나의 미션\n# 🗂️ Secretary 에이전트 — 나의 미션\n\n> 🌞 24시간 업무가 켜져 있으면 이 미션을 향해 자동으로 한 스텝씩 일합니다.\n> 자유롭게 수정하세요. 비워두면 회사 공동 목표만 따라갑니다.\n\n## 장기 목표 (3~6개월)\n- 데일리 브리핑·할 일 정리 루틴 자동화\n- 다른 에이전트 산출물을 한 줄 요약으로 모아서 보고\n\n## 이번 주 목표\n- 매일 09:00 데일리 브리핑 정리\n- 미해결 할 일 5건 추적 + 다음 액션 명시\n\n## 작업 원칙\n- \"정리\"보다 \"다음 액션 1개\" 명시가 우선",
+    "tags": [
+      "에이전트",
+      "정리",
+      "secretary",
+      "나의",
+      "미션",
+      "목표"
+    ],
+    "ts": 1780574071872,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718728198",
+    "text": "# Secretary (Personal Assistant) 개인 메모리\n# 📱 Secretary (Personal Assistant) 개인 메모리\n\n_Secretary 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰는 패턴이 누적됩니다._\n\n## 학습 기록",
+    "tags": [
+      "secretary",
+      "개인",
+      "personal",
+      "assistant",
+      "메모리",
+      "쓰는"
+    ],
+    "ts": 1780574071872,
+    "category": "general",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718728554",
+    "text": "# Secretary 페르소나 디테일\n# 📱 Secretary 페르소나 디테일\n\n_여기에 Secretary 에이전트에게 주고 싶은 추가 지시·말투·취향·예시 등을 자유롭게 적으세요._\n_매 호출 시 시스템 프롬프트에 자동 주입됩니다. (git에 동기화됨)_",
+    "tags": [
+      "secretary",
+      "페르소나",
+      "디테일",
+      "여기에",
+      "에이전트에게",
+      "주고"
+    ],
+    "ts": 1780574071872,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718728501",
+    "text": "# ️ Writer 설정 (시크릿)\n# ✍️ Writer 설정 (시크릿)\n\n_이 파일은 `.gitignore`에 의해 깃 동기화에서 제외됩니다. API 키·토큰을 자유롭게 적으세요._",
+    "tags": [
+      "writer",
+      "설정",
+      "시크릿",
+      "파일은",
+      "gitignore",
+      "의해"
+    ],
+    "ts": 1780574071872,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718724530",
+    "text": "# ️ Writer 에이전트 — 나의 미션\n# ✍️ Writer 에이전트 — 나의 미션\n\n> 🌞 24시간 업무가 켜져 있으면 이 미션을 향해 자동으로 한 스텝씩 일합니다.\n> 자유롭게 수정하세요. 비워두면 회사 공동 목표만 따라갑니다.\n\n## 장기 목표 (3~6개월)\n- 후크·CTA 라이브러리 50개 운영\n- 채널·인스타·블로그 톤앤매너 가이드 확정\n\n## 이번 주 목표\n- 영상 스크립트 초안 2편 (후크 3안 포함)\n- 인스타 캡션 5개 + 블로그 글 1편\n\n## 작업 원칙\n- 한 산출물에 후크/본문/CTA를 명확히 분리",
+    "tags": [
+      "후크",
+      "writer",
+      "에이전트",
+      "나의",
+      "미션",
+      "목표"
+    ],
+    "ts": 1780574071872,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718724823",
+    "text": "# ️ Writer (Copywriter) 개인 메모리\n# ✍️ Writer (Copywriter) 개인 메모리\n\n_Writer 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰는 패턴이 누적됩니다._\n\n## 학습 기록\n\n- [2026-04-28] 연구 결과를 바탕으로 잠재적인 채널 콘셉트 3가지와 각 콘셉트에 대한 핵심 후크(Hook) 아이디어를 초안 작성해줘. → 산출물 sessions/2026-04-28T06-03/writer.md\n- [2026-04-28] Researcher가 제안한 최적의 주제 중 하나를 선택하여, 시청자의 즉각적인 흥미를 유발하는 강력한 후크와 함께 5분 분량의 영상 스크립트 초안을 작성해 주세요. → 산출물 sessions/2026-04-28T06-18/writer.md\n- [2026-04-28] 리서치된 아이디어 중 가장 잠재력이 높은 주제 1개를 선정하고, 해당 주제에 대한 시청자의 흥미를 유발할 수 있는 강력한 후크 문구와 영상 스크립트 초안을 작성하라. → 산출물 sessions/2026-04-28T08-58/writer.md\n- [2026-04-29] 선정된 시스템을 기반으로 유튜브 영상의 구체적인 스크립트 아웃라인과 핵심 메시지(후크)를 작성하여 콘텐츠 방향성을 확정하세요. → 산출물 sessions/2026-04-29T03-25/writer.md\n- [2026-04-29] Business 에이전트가 제시할 시장 데이터를 바탕으로, 가장 매력적인 틈새시장을 공략하는 핵심 가치 메시지(Hook) 초안을 작성하여 다음 콘텐츠 기획의 방향성을 제시하세요. → 산출물 sessions/2026-04-29T04-04/writer.md\n- [2026-04-29] CEO의 최종 방향(시스템 설계자 포지셔닝)에 맞춰, AI 기반 워크플로우 자동화의 비효율성을 지적하고 시스템 설계 방법론을 통해 해결책을 제시하는 고가치 유튜브 영상 스크립트 초안을 작성하세요. 스크립트는 논리적 흐름과 권위를 강조해야 합니다. → 산출물 sessions/2026-04-29T06-10/writer.md\n- [2026-04-29] 기존 유튜브 스크립트 초안을 바탕으로, '시스템 설계자' 포지셔닝에 맞춰 실제 판매 가능한 핵심 시스템 프레임워크(PDF/워크북 형태)를 구조화하여 작성할 것. → 산출물 sessions/2026-04-29T06-39/writer.md\n- [2026-04-29] YouTube 에이전트가 기획한 콘텐츠 콘셉트에 맞춰, 시스템 설계자 포지셔닝을 강조하는 고가치 카피라이팅과 논리적인 스크립트 초안을 작성한다. 핵심은 '돈(Stakes) + 시각적 충격(Spectacle) + 심리적 딜레마(Psychology)'를 극대화하는 서사 구조를 따른다. → 산출물 sessions/2026-04-29T07-53/writer.md\n- [2026-04-29] Designer가 요청한 디자인 템플릿에 맞춰, 시스템 설계 방법론의 핵심 메시지(시스템적 사고방식)를 가장 설득력 있게 전달할 수 있는 카피라이팅 초안을 작성하라. → 산출물 sessions/2026-04-29T09-56/writer.md\n- [2026-04-29] 기획된 3가지 콘셉트에 대해 시청자의 즉각적인 몰입을 유도하는 강력한 후크(Hook), 극적 서사 구조, 그리고 시스템 설계 방법론을 녹여낸 스크립트 초안을 작성하세요. → 산출물 sessions/2026-04-29T10-54/writer.md\n- [2026-04-29] 도출된 3가지 주제 중 가장 고가치 상품(시스템 설계) 판매에 유리한 주제를 선정하고, 이를 바탕으로 MrBeast 스타일의 '극도의 선택과 결과'를 담은 유튜브 영상 콘셉트 및 후크(Hook) 초안을 작성하세요. → 산출물 sessions/2026-04-29T11-10/writer.md\n- [2026-04-29] 연구 결과를 바탕으로 '시스템 설계 방법론'의 핵심 가치를 강조하며 시청자의 즉각적인 몰입을 유도하는 유튜브 인트로(Hook) 스크립트 초안 3가지와, 이를 뒷받침할 강력한 카피라이팅 문구를 작성하세요. → 산출물 sessions/2026-04-29T11-13/writer.md\n- [2026-04-29] youtube에서 확정된 영상 아웃라인을 기반으로 '시스템 설계자' 포지셔닝을 극대화하는 가장 강력하고 심리적인 후크(Hook 2) 스크립트 초안을 작성하세요. → 산출물 sessions/2026-04-29T11-40/writer.md\n- [2026-04-29] CEO 메모리에서 확정된 '수익 극대화 시스템 설계 4단계'를 바탕으로, 시청자에게 '실행 방법'이 아닌 '설계 방식'을 가르치는 메시지를 담은 상세한 유튜브 스크립트 초안(Hook 및 핵심 단계 포함)을 작성하세요. → 산출물 sessions/2026-04-29T11-43/writer.md\n- [2026-04-29] youtube 에이전트가 제시한 주제를 바탕으로, 시청자가 '실행 방법'보다 '시스템 설계 방식'에 집중하게 만드는 강력한 후크(Hook)와 시스템적 메시지를 포함한 영상 스크립트 초안 3개를 작성하세요. → 산출물 sessions/2026-04-29T12-10/writer.md\n- [2026-04-29] youtube 에이전트가 제안한 후크를 기반으로, '실행 방법'이 아닌 '시스템 설계 방식'을 가르치는 내용에 초점을 맞춘 영상 스크립트 초안(인트로 및 핵심 메시지)을 작성하라. 스크립트는 Deep Blue/Neon의 시각적 일관성을 반영하도록 구성하라. → 산출물 sessions/2026-04-29T12-13/writer.md\n- [2026-04-29] 최근 확정된 '시스템 설계 방법론' 포지셔닝에 맞춰, 영상 1과 영상 2에 대한 상세 대본 초안(Hook 포함)을 작성하세요. 스크립트는 실행 방법보다 시스템 설계의 논리적 과정을 강조해야 합니다. → 산출물 sessions/2026-04-29T12-43/writer.md\n- [2026-04-29] 이전 논의에서 확정된 '수익 극대화 3단계 시스템'을 기반으로, Hook 2와 Video Structure Outline에 맞춰 최종 영상 스크립트(0:00~8:30 구간)를 작성하고, 각 섹션별로 시스템 설계 관점의 논리적 흐름을 강화하여 작성하세요. → 산출물 sessions/2026-04-29T13-13/writer.md\n- [2026-04-29] Business에서 설계한 가격 구조를 바탕으로, 각 시스템 모듈(챕터/모듈)별로 판매할 수 있는 구체적인 콘텐츠의 상세 목차 및 핵심 메시지(Hook)를 정의하여 콘텐츠 모듈화 작업을 시작하세요. → 산출물 sessions/2026-04-29T13-40/writer.md\n- [2026-04-29] Hook 1(시스템 설계 포지셔닝)을 기반으로, 고가치 판매를 유도하는 영상 스크립트 초안을 완성하고, CTA 부분에 Neon Cyan 색상을 명확히 적용하도록 수정하세요. → 산출물 sessions/2026-04-29T13-43/writer.md\n- [2026-04-29] 확정된 시스템 설계 포지셔닝을 기반으로, 영상 제작에 즉시 착수할 수 있도록 최종 스크립트의 녹음 및 편집 준비를 완료하세요. → 산출물 sessions/2026-04-29T14-10/writer.md\n- [2026-04-29] 앞서 확정된 '시스템 설계 방법론' 포지셔닝에 맞춰, 유튜브 영상의 핵심 주제(Hook)와 스토리라인을 '실행 방법'이 아닌 '시스템 설계 관점'에서 재구성하여 초안 스크립트를 작성하라. → 산출물 sessions/2026-04-29T14-13/writer.md\n- [2026-04-29] Business 에이전트가 확정한 Tier 2 상품의 커리큘럼 및 판매 문구에 맞춰, 시스템 설계 방법론을 강조하는 최종 세일즈 카피를 작성하여 완성도를 높이세요. → 산출물 sessions/2026-04-29T14-40/writer.md\n- [2026-04-29] 시스템 설계 방법론(Input-Process-Output 구조)에 기반하여 '수익 엔진 아키텍처'라는 주제로 유튜브 영상의 핵심 스크립트 초안을 작성하고, Hook 1과 Hook 2를 통합하여 몰입도를 극대화하",
+    "tags": [
+      "2026",
+      "writer",
+      "시스템",
+      "산출물",
+      "sessions",
+      "설계"
+    ],
+    "ts": 1780574071872,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718728130",
+    "text": "# ️ Writer 페르소나 디테일\n# ✍️ Writer 페르소나 디테일\n\n_여기에 Writer 에이전트에게 주고 싶은 추가 지시·말투·취향·예시 등을 자유롭게 적으세요._\n_매 호출 시 시스템 프롬프트에 자동 주입됩니다. (git에 동기화됨)_",
+    "tags": [
+      "writer",
+      "페르소나",
+      "디테일",
+      "여기에",
+      "에이전트에게",
+      "주고"
+    ],
+    "ts": 1780574071872,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718729955",
+    "text": "# YouTube 설정 (시크릿)\n# 📺 YouTube 설정 (시크릿)\n\n_이 파일은 `.gitignore`에 의해 깃 동기화에서 제외됩니다. API 키·토큰을 자유롭게 적으세요._\n\n## YouTube Data API\n- YOUTUBE_API_KEY: \n- YOUTUBE_CHANNEL_ID:",
+    "tags": [
+      "youtube",
+      "api",
+      "설정",
+      "시크릿",
+      "파일은",
+      "gitignore"
+    ],
+    "ts": 1780574071872,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718721545",
+    "text": "# YouTube (Head of YouTube) 개인 메모리\n# 📺 YouTube (Head of YouTube) 개인 메모리\n\n_YouTube 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰는 패턴이 누적됩니다._\n\n## 학습 기록\n\n- [2026-04-27] 현재 목표 달성을 위해 가장 우선순위가 높은 유튜브 영상 기획 주제 5가지를 브레인스토밍하고 트렌드 분석을 시작하라. → 산출물 sessions/2026-04-27T12-26/youtube.md\n- [2026-04-27] 수익화를 위한 초기 콘텐츠 아이디어 3가지와 잠재 시청자 페르소나에 대한 가설을 바탕으로 테스트할 영상 주제 초안을 제시해달라. → 산출물 sessions/2026-04-27T12-35/youtube.md\n- [2026-04-28] Writer와 Designer의 결과물을 바탕으로 채널의 첫 번째 영상 제목 후보 5개와 상세한 영상 기획안(타임라인 포함)을 작성해 주세요. → 산출물 sessions/2026-04-28T06-18/youtube.md\n- [2026-04-28] 수익 극대화를 목표로, 현재 콘텐츠 중 가장 높은 수익 전환율을 가질 것으로 예상되는 주제를 선정하여 다음 7일간의 영상 기획안(제목, 핵심 메시지, 후크)을 작성해줘. → 산출물 sessions/2026-04-28T11-13/youtube.md\n- [2026-04-29] 최신 트렌드와 시스템 설계 논리를 반영하여 이번 주에 업로드할 영상의 핵심 주제(시스템 설계)를 최종 확정하고, 이에 맞는 상세 스크립트 방향을 제시하라. → 산출물 sessions/2026-04-29T02-25/youtube.md\n- [2026-04-29] 이전에 정의된 '시스템 설계 방법론'을 핵심으로 하는 MVP 영상 시리즈 3개의 상세 콘셉트와 스크립트 초안을 작성하여 기획한다. 인트로 화면은 Deep Blue/Neon 톤을 적용하고, 후크는 '시스템적 사고방식'과 '수익 극대화 프레임워크'에 집중하도록 구성한다. → 산출물 sessions/2026-04-29T07-53/youtube.md\n- [2026-04-29] 지정된 실행 명령(<run_command>cd \"/Users/jay/Downloads/지식메모리/_agents/youtube/tools\" && python competitor_brief.py</run_command>)을 즉시 실행하고, 출력 결과를 분석하여 다음 구체적인 액션을 한 줄로 제안하세요. → 산출물 sessions/2026-04-29T09-07/youtube.md\n- [2026-04-29] 분석 결과를 바탕으로 '시스템 설계' 주제에 적용 가능한 최소 3가지의 초고강도(High-Stakes) 유튜브 영상 콘셉트(Hook, 제목, 핵심 플로우)를 구체적으로 기획하세요. → 산출물 sessions/2026-04-29T10-54/youtube.md\n- [2026-04-29] 최신 시스템 설계 방법론을 기반으로 다음 영상의 핵심 메시지와 논리적 흐름(Hook 2)을 최종 확정하고, 고가치 시스템 판매에 초점을 맞춘 구체적인 영상 아웃라인(스크립트 구조 포함)을 작성하세요. → 산출물 sessions/2026-04-29T11-40/youtube.md\n- [2026-04-29] 작성된 스크립트와 디자인 가이드를 기반으로, 시스템 설계 포지셔닝에 최적화된 영상 기획안(인트로 후크 및 전체 흐름)을 최종 확정하고 제작 준비를 시작하세요. → 산출물 sessions/2026-04-29T11-43/youtube.md\n- [2026-04-29] ‘시스템 설계자’ 포지셔닝에 맞춰, 경쟁 채널(미스터비스트 1위)의 성공 공식을 분석하고, 고가치 시스템 판매로 연결되는 유튜브 콘텐츠 핵심 주제 5가지와 초기 영상 기획안을 작성하세요. → 산출물 sessions/2026-04-29T12-10/youtube.md\n- [2026-04-29] business 에이전트가 도출한 고가치 시스템 아이디어를 바탕으로, '시스템 설계자' 포지셔닝에 맞는 가장 강력하고 클릭 유도적인 유튜브 영상 제목 3가지와 각 영상의 핵심 후크(Hook)를 기획하라. → 산출물 sessions/2026-04-29T12-13/youtube.md\n- [2026-04-29] 확정된 시스템 설계자 포지셔닝에 맞춰, 가장 강력한 영상 1과 2의 최종 스크립트와 시각적 구성을 확정하고 즉시 제작 준비를 시작하세요. → 산출물 sessions/2026-04-29T12-40/youtube.md\n- [2026-04-29] Business 에이전트가 설계한 시스템 기반의 콘텐츠 주제에 맞춰, '시스템 설계자' 포지셔닝을 강조하는 영상 기획안(핵심 메시지 및 구조)을 수립합니다. → 산출물 sessions/2026-04-29T13-10/youtube.md\n- [2026-04-29] 미스터비스트 유튜브 1위의 성공 공식을 분석하여, '시스템 설계' 철학을 담은 영상의 핵심 주제(Hook)와 전체적인 콘텐츠 구조를 기획하고 스크립트 초안 방향을 제시하세요. → 산출물 sessions/2026-04-29T15-13/youtube.md\n- [2026-04-29] 최근 경쟁 채널 분석 결과를 바탕으로, '미스터비스트 유튜브 1위' 포지셔닝을 목표로 하는 영상의 핵심 주제와 논리적 흐름(System Design 강조)에 맞는 구체적인 영상 기획안(제목 후보 3가지, 핵심 메시지)을 작성하고 초안을 제시하세요. → 산출물 sessions/2026-04-29T15-43/youtube.md\n- [2026-04-29] 리서처가 제공한 트렌드 분석을 바탕으로, '시스템 설계' 포지셔닝 전략에 부합하는 고가치 후크(Hook) 3가지와 잠재적 영상 주제 5가지를 기획해 주세요. → 산출물 sessions/2026-04-29T16-34/youtube.md",
+    "tags": [
+      "2026",
+      "youtube",
+      "산출물",
+      "sessions",
+      "시스템",
+      "영상"
+    ],
+    "ts": 1780574071872,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n1780574071872216",
+    "text": "# YouTube 페르소나 디테일\n# 📺 YouTube 페르소나 디테일\n\n_여기에 YouTube 에이전트에게 주고 싶은 추가 지시·말투·취향·예시 등을 자유롭게 적으세요._\n_매 호출 시 시스템 프롬프트에 자동 주입됩니다. (git에 동기화됨)_",
+    "tags": [
+      "youtube",
+      "페르소나",
+      "디테일",
+      "여기에",
+      "에이전트에게",
+      "주고"
+    ],
+    "ts": 1780574071872,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718725416",
+    "text": "# 오토 플래너\n# 🌙 오토 플래너\n\n설정한 간격으로 트렌드 스나이퍼를 자동 실행합니다. 자는 동안 / 백그라운드에서 데이터를 누적하기 좋습니다.\n\n## 필요한 것\n- 트렌드 스나이퍼 도구 설정 완료 (API 키 등)\n\n## 설정값\n- `INTERVAL_HOURS` — 몇 시간마다 실행할지 (기본 2)\n- `TOTAL_RUN_HOURS` — 총 가동 시간 (기본 8)\n\n## 실행 방법\n패널의 [▶ 실행]을 누르거나:\n```bash\npython auto_planner.py\n```\n\n⚠️ 이 스크립트는 종료 전까지 블로킹됩니다. 백그라운드에서 돌리려면 별도 터미널을 사용하세요.",
+    "tags": [
+      "오토",
+      "플래너",
+      "트렌드",
+      "백그라운드에서",
+      "hours",
+      "기본"
+    ],
+    "ts": 1780574071872,
+    "category": "coding",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718728876",
+    "text": "# 댓글 수집기\n# 💬 댓글 수집기\n\n`youtube_account.json`의 `WATCHED_CHANNELS`에 적은 채널들의 최근 영상에서 인기 댓글을 가져와 YouTube 에이전트의 `memory.md`에 누적 저장합니다. 시청자가 실제로 어떤 단어·반응을 쓰는지가 메모리에 쌓이면, 에이전트가 다음 영상 후크나 제목을 짤 때 그 표현을 자연스럽게 참고하게 됩니다.\n\n## 어떻게 도와주나요?\n- 📡 감시 채널마다 최근 N개 영상 → 인기 댓글 M개 가져오기\n- 🧠 결과를 `_agents/youtube/memory.md`에 자동 추가 (에이전트가 다음 사이클에 자동 참조)\n- 📒 같은 폴더에 `comment_harvester_report.md`로 누적 백업\n\n## 시작하기 전 체크\n- `youtube_account.json`에 `WATCHED_CHANNELS` 배열 채워두기 (예: `[\"@channel_a\",\"@channel_b\"]`)\n- 댓글이 꺼진 영상은 자동 스킵\n- API 비용: 채널당 search 1회 + 영상마다 commentThreads 1회 (가벼움)\n\n## 설정값 (comment_harvester.json)\n- `VIDEOS_PER_CHANNEL` — 채널마다 영상 몇 개 (기본 5)\n- `COMMENTS_PER_VIDEO` — 영상마다 댓글 몇 개 (기본 20)\n- `LOOKBACK_DAYS` — 며칠치 영상까지 (기본 14)\n\n## 어떻게 활용되나?\n메모리에 쌓인 댓글을 에이전트가 다음 한 스텝에서 자연스럽게 참고합니다. 직접 보고 싶으면 `memory.md` 또는 같은 폴더의 `comment_harvester_report.md`를 열면 돼요.",
+    "tags": [
+      "댓글",
+      "youtube",
+      "json",
+      "memory",
+      "에이전트가",
+      "다음"
+    ],
+    "ts": 1780574071872,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718729392",
+    "text": "# 경쟁 채널 분석\n# 🔭 경쟁 채널 분석\n\n`youtube_account.json`의 `COMPETITOR_CHANNELS`에 적은 경쟁 채널들의 최근 떡상 영상을 모아서, 로컬 LLM에게 **지시문 형식**의 다음 액션 브리프를 받아옵니다 — \"이거 해야합니다 / 저거 해야합니다 / 이건 절대 하지 마세요\" 형태로 나옵니다.\n\n## 어떻게 도와주나요?\n- 🔭 경쟁 채널마다 최근 N개 인기 영상(view 기준) 수집\n- 🧠 로컬 LLM이 패턴을 읽고 4섹션으로 브리프 작성:\n  - 1) 지금 당장 해야 하는 것 3개\n  - 2) 이번 주 시도할 것 3개 (제목 후보 포함)\n  - 3) 절대 하지 말 것 1개\n  - 4) 다음 영상 핵심 한 줄\n- 📨 텔레그램 설정돼있으면 자동 푸시\n\n## 시작하기 전 체크\n- `youtube_account.json`의 `COMPETITOR_CHANNELS` 채워두기\n- 로컬 LLM(Ollama/LM Studio)이 켜져 있어야 함\n\n## 설정값 (competitor_brief.json)\n- `TOP_N_PER_CHANNEL` — 채널마다 상위 영상 몇 개 (기본 5)\n- `LOOKBACK_DAYS` — 며칠치 (기본 30)",
+    "tags": [
+      "경쟁",
+      "json",
+      "competitor",
+      "로컬",
+      "llm",
+      "영상"
+    ],
+    "ts": 1780574071872,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718723103",
+    "text": "# 내 영상 체크\n# 🎬 내 영상 체크\n\n본인 채널의 최근 영상이 잘 올라갔는지 한눈에 봅니다. 조회수 중간값을 기준선으로 삼아 떡상/부진 영상을 자동 분류하고, 다음에 뭘 할지 짧은 제안까지 만들어줘요.\n\n## 어떻게 도와주나요?\n- 🎬 본인 채널 최근 N개 영상 메타·통계 수집\n- 📊 조회수 **중간값** 계산 → 1.5배 이상 = 🔥 떡상, 0.5배 미만 = 🥶 부진\n- 🧭 떡상/부진 비율 보고 다음 액션 1~3개 제안\n- 📨 `youtube_account.json`에 텔레그램이 설정돼있으면 보고를 메시지로도 보내줌\n\n## 시작하기 전 체크\n- `youtube_account.json`의 `YOUTUBE_API_KEY` + `MY_CHANNEL_HANDLE` 또는 `MY_CHANNEL_ID` 채워야 함\n- 핸들만 있어도 자동으로 채널 ID를 조회합니다 (검색 1회 사용)\n\n## 설정값 (my_videos_check.json)\n- `LOOKBACK_DAYS` — 며칠치 영상 볼지 (기본 30)\n- `TOP_N` — 최대 몇 개 분석할지 (기본 10)\n\n## 출력\n- 콘솔에 영상별 조회수·라이크·댓글 수\n- `my_videos_check_report.md`에 누적 저장\n- (선택) 텔레그램 알림",
+    "tags": [
+      "영상",
+      "체크",
+      "조회수",
+      "떡상",
+      "부진",
+      "youtube"
+    ],
+    "ts": 1780574071872,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718727142",
+    "text": "# 텔레그램 보고\n# 📨 텔레그램 보고\n\n다른 도구가 보고를 메신저로 보낼 때 호출하는 통신선이에요. 이 도구를 직접 [▶ 실행]하면 **연결 테스트 메시지**를 보냅니다 — 받으면 OK, 안 오면 토큰/chat_id 다시 확인.\n\n## 어떻게 도와주나요?\n- ✅ 연결 확인용 핑 (아무 인자 없이 실행)\n- 📨 다른 도구(내 영상 체크, 경쟁 채널 분석 등)가 자동 보고를 보내는 채널\n- 🔕 토큰이나 chat_id가 비어있으면 다른 도구들은 그냥 텔레그램 단계만 건너뜁니다\n\n## 봇 만드는 법 (한 번만)\n1. 텔레그램에서 [@BotFather](https://t.me/BotFather) 검색 → `/newbot` → 이름·핸들 정하면 `123:ABC...` 형식 토큰을 줍니다\n2. 새로 만든 봇한테 아무 메시지나 한 번 보내기 (`/start` 권장)\n3. 브라우저에서 `https://api.telegram.org/bot<TOKEN>/getUpdates` 열어서 `chat.id` 확인\n4. `youtube_account.json`의 `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID`에 입력\n5. 이 도구 [▶ 실행] → 핑 메시지 받으면 끝\n\n## 다른 도구에서 어떻게 쓰이나?\n- \"내 영상 체크\" → 떡상/부진 요약을 자동 푸시\n- \"경쟁 채널 분석\" → 다음 액션 브리프 자동 푸시\n- 향후 트렌드 스나이퍼/오토 플래너 결과도 같은 라인을 통해 보냅니다",
+    "tags": [
+      "다른",
+      "chat",
+      "텔레그램",
+      "실행",
+      "채널",
+      "자동"
+    ],
+    "ts": 1780574071873,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718737931",
+    "text": "# 트렌드 스나이퍼\n# 🎯 트렌드 스나이퍼\n\n유튜브 Data API로 최근 30일 떡상 영상을 수집하고, 로컬 LLM(Ollama/LM Studio)으로 패턴을 분석해 다음 영상 기획안(제목·썸네일·후크)을 도출합니다.\n\n## 필요한 것\n- Python 3 + `pip install google-api-python-client requests`\n- YouTube Data API v3 키 ([발급 안내](https://console.cloud.google.com/))\n- 로컬 LLM (Ollama 또는 LM Studio)이 켜져 있어야 함\n\n## 실행 방법\n패널의 [▶ 실행] 버튼을 누르거나 터미널에서:\n```bash\npython trend_sniper.py\n```\n\n## 출력\n같은 폴더에 `trend_sniper_report.md` 누적 저장.",
+    "tags": [
+      "api",
+      "python",
+      "트렌드",
+      "스나이퍼",
+      "data",
+      "로컬"
+    ],
+    "ts": 1780574071873,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718734564",
+    "text": "# 계정 / 채널 (공유 설정)\n# 🔑 계정 / 채널 (공유 설정)\n\n여기 한 번만 채워두면 다른 모든 YouTube 도구(트렌드 스나이퍼·내 영상 체크·댓글 수집기·경쟁 채널 분석·텔레그램 보고)가 이 값을 그대로 가져다 씁니다. 매번 도구마다 같은 키를 넣지 않아도 돼요.\n\n## 채워야 하는 항목\n\n| 키 | 설명 | 채우는 법 |\n|---|---|---|\n| `YOUTUBE_API_KEY` | YouTube Data API v3 키 | [console.cloud.google.com](https://console.cloud.google.com/) → 프로젝트 → \"YouTube Data API v3\" 사용 설정 → 사용자 인증 정보 → API 키. 무료 한도 충분(하루 10,000 단위). |\n| `MY_CHANNEL_HANDLE` | 본인 채널 @핸들 | 예: `@mychannel`. 핸들 또는 ID 둘 중 하나만 채우면 됨. |\n| `MY_CHANNEL_ID` | 본인 채널 ID (UCxxxx) | 핸들로 못 잡힐 때 백업용. studio.youtube.com → 설정 → 채널에서 확인. |\n| `WATCHED_CHANNELS` | 댓글 수집 대상 채널 핸들 목록 | 예: `[\"@channel_a\", \"@channel_b\"]`. 댓글 수집기가 이 채널들 최근 영상의 댓글을 메모리로 가져옵니다. |\n| `COMPETITOR_CHANNELS` | 경쟁 채널 분석 대상 | 같은 형식. 경쟁 채널 분석 도구가 패턴을 뽑아 다음 액션을 추천합니다. |\n| `TELEGRAM_BOT_TOKEN` | 텔레그램 봇 토큰 | @BotFather에서 /newbot으로 봇 만들고 받은 `123:ABC...` 형식 토큰. 비워두면 보고 알림 OFF. |\n| `TELEGRAM_CHAT_ID` | 본인 chat_id | 봇한테 아무 메시지 보낸 뒤 `https://api.telegram.org/bot<TOKEN>/getUpdates` 열어서 `chat.id` 확인. |\n| `OLLAMA_URL` | 로컬 LLM 주소 | 기본 `http://127.0.0.1:11434`. LM Studio면 보통 `http://127.0.0.1:1234`. |\n| `MODEL` | 분석에 쓸 모델 이름 | 비워두면 첫 번째로 발견된 모델을 자동 선택. |\n\n## 실행하면?\n입력값이 제대로 들어왔는지 확인 리포트만 출력합니다 (실제 데이터 호출 X). 키가 비어있으면 알려줍니다.\n\n## 어디 저장되나?\n이 폴더의 `youtube_account.json` 한 파일에. 브레인 폴더 안이라 GitHub 백업도 같이 됩니다.",
+    "tags": [
+      "채널",
+      "youtube",
+      "api",
+      "설정",
+      "channel",
+      "댓글"
+    ],
+    "ts": 1780574071873,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718739562",
+    "text": "# 1인 기업 OS — 자가 매뉴얼\n# 🧬 1인 기업 OS — 자가 매뉴얼\n\n## 이 폴더는 무엇인가요?\n당신의 1인 기업의 두뇌입니다. 7명의 AI 에이전트가 여기서 일합니다.\n\n## 폴더 구조\n- `_shared/` — 모든 에이전트가 매번 읽는 공동 메모리\n  - `identity.md` — 회사 정체성 (이름, 톤, 가치)\n  - `goals.md` — 목표\n  - `decisions.md` — 의사결정 로그 (자가학습이 자동 누적)\n  - `_system.md` — 이 파일\n- `_agents/<id>/` — 각 에이전트 개인 공간\n  - `memory.md` — 자가학습 (자동, append-only)\n  - `prompt.md` — 페르소나 디테일 (사용자가 편집)\n  - `config.md` — API 키·시크릿 (`.gitignore`로 보호)\n- `sessions/<ts>/` — 세션별 산출물 (자동)\n- `_cache/` — API 응답 캐시 (sync 제외)\n\n## 메모리 위계 (충돌 시 우선순위)\n1. `decisions.md` — 가장 강한 신뢰\n2. `identity.md`\n3. `goals.md`\n4. 개인 메모리\n5. 지식 베이스 (`10_Wiki/`)\n\n## 다른 PC로 옮길 때\n1. 새 PC에 Connect AI 설치\n2. 👔 모드 ON → \"📥 다른 PC에서 가져오기\" 선택\n3. GitHub URL 입력 → 자동 clone\n4. 끝.\n\n## 동기화 정책\n- `_shared/`, `_agents/*/memory.md`, `_agents/*/prompt.md`, `sessions/` → git sync ✅\n- `_agents/*/config.md`, `_cache/` → git sync ❌ (시크릿·캐시)\n\n## 7명의 에이전트\n- 🧭 **CEO** (Chief Executive Agent): 오케스트레이션, 작업 분해, 종합 판단, 다음 액션 결정\n- 📺 **YouTube** (Head of YouTube): 유튜브 채널 운영, 영상 기획서(제목·후크·구조), 트렌드 분석, 썸네일 브리프, 업로드 메타데이터, 시청자 유지율 전략\n- 📷 **Instagram** (Head of Instagram): 인스타그램 릴스/피드 콘셉트, 캡션, 해시태그 전략, 게시 시간, 스토리, 팔로워 인게이지먼트\n- 🎨 **Designer** (Lead Designer): 브랜드 디자인 브리프(컬러·타이포·레퍼런스), 썸네일 컨셉 3안, 비주얼 시스템, 디자인 가이드\n- 💻 **Developer** (Lead Engineer): 코드, 자동화 스크립트, API 통합, 웹사이트/봇, 데이터 파이프라인, 디버깅\n- 💰 **Business** (Head of Business): 수익화 모델, 가격 전략, 시장·경쟁 분석, ROI/KPI 설계, 비즈니스 의사결정\n- 📱 **Secretary** (Personal Assistant): 일정·할 일 관리, 다른 에이전트 작업 요약·텔레그램 보고, 데일리 브리핑, 알림",
+    "tags": [
+      "자동",
+      "agents",
+      "메모리",
+      "에이전트",
+      "api",
+      "sync"
+    ],
+    "ts": 1780574071873,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718733510",
+    "text": "# 2026 04 27\n## [오후 09:29] 세션: 2026-04-27T12-26\n- **💰 Business** → 📺 YouTube: 니치 확정 결과 공유해.\n- **📺 YouTube** → 💰 Business: AI 주제가 CPM에 유리할 것 같아.\n- **💰 Business** → 📺 YouTube: 롱테일 키워드 연결해봐.\n- **📺 YouTube** → 💰 Business: 투자 전략은 구체화 필요해.\n- **💰 Business** → 📺 YouTube: 영상 포트폴리오 점검하자.\n\n## [오후 09:39] 세션: 2026-04-27T12-35\n- **💰 Business** → 📺 YouTube: 니치 테스트 목표는 ROI 극대화야.\n- **📺 YouTube** → 💰 Business: 고수익 니치에 집중하여 테스트할게.\n- **🎨 Designer** → 💰 Business: 비주얼 가이드라인은 효율성을 강조해줘.\n- **💰 Business** → 🎨 Designer: 신뢰감과 미래지향적인 느낌을 우선해.\n- **📺 YouTube** → 🎨 Designer: AI 자동화 영상에 맞는 톤앤매너가 필요해.\n- **🎨 Designer** → 📺 YouTube: 시스템 설계자 이미지로 명료하게 가자.",
+    "tags": [
+      "business",
+      "youtube",
+      "designer",
+      "2026",
+      "오후",
+      "세션"
+    ],
+    "ts": 1780574071873,
+    "category": "business",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718731412",
+    "text": "# 회사 의사결정 로그\n# 📌 회사 의사결정 로그\n\n_자가학습이 자동 누적합니다. 잘못된 항목은 직접 삭제하세요._\n\n## [2026-04-27] 야 알았어~~~ 내가 말하는건 한번 테스트 해달라구\n- 성공은 고수익 지향과 실용적 실행 사이의 균형에서 나온다.\n- 비주얼 가이드라인은 신뢰감과 미래지향적인 느낌을 우선하여 설정한다.\n- 영상 톤앤매너는 시스템 설계자처럼 명료하게 진행한다.\n_세션: 2026-04-27T12-35_\n\n## [2026-04-28] 유튜브 기획해\n- AI 기반 워크플로우 자동화 마스터 채널의 MVP 콘텐츠 기획을 시작한다.\n- 경쟁사 분석을 통해 광고 단가를 높일 수 있는 시스템 프레임워크를 정의한다.\n- 콘텐츠는 이론보다 AI와 자동화를 통한 구체적인 결과물 제시에 집중한다.\n_세션: 2026-04-28T06-03_\n\n## [2026-04-28] 야 유튜브 기회개호바\n- 콘텐츠는 시스템 설계 논리를 중심으로 구성한다.\n- 디자인은 블루 톤과 네온 색상을 사용한다.\n- 영상 콘셉트는 콘셉트 1을 최종안으로 확정한다.\n_세션: 2026-04-28T06-18_\n\n## [2026-04-28] 웹사이트 개발해\n- 비주얼은 네온 색상을 사용하여 미래 지향성과 수익성을 동시에 표현한다.\n- 수익화 흐름 확장을 위해 Next.js 스택을 중심으로 개발을 진행한다.\n_세션: 2026-04-28T07-27_\n\n## [2026-04-28] hey create a website\n- 디자인 시스템은 Deep Blue/Neon 기반으로 확정한다.\n- 구현 시 Tailwind CSS를 사용하여 커스텀 클래스로 적용한다.\n- MVP 구조는 SEO와 전환에 최적화한다.\n_세션: 2026-04-28T07-34_\n\n## [2026-04-28] 유튜브\n- 고가 컨설팅 및 시스템 판매를 위해 '시스템 설계'를 핵심으로 제시한다.\n- 채널의 브랜드 아이덴티티는 블루/네온 테마를 유지한다.\n- 영상 제작 시 파이프라인 흐름을 강조하여 디자인한다.\n_세션: 2026-04-28T08-58_\n\n## [2026-04-28] 야 이번달 무조건 천만원 넘게 벌어야해\n- 수익 극대화는 시스템 설계 방법론 판매로 전환한다.\n- 고가치 시스템 판매를 핵심 전략으로 설정한다.\n- 시각적 요소와 콘텐츠의 일관성으로 신뢰도를 확보한다.\n_세션: 2026-04-28T11-13_\n\n## [2026-04-29] [모닝 브리핑] 오늘 날짜는 2026-04-29입니다. 회사 목표(goals.md)와 지금까지의 의사결정 로\n- 수익 극대화를 위해 '시스템 설계 방법론 판매'로 전환한다.\n- KPI는 시스템 적용 여부로 측정한다.\n- 모든 콘텐츠와 디자인은 고가치 시스템의 신뢰도를 증명하는 도구여야 한다.\n_세션: 2026-04-29T02-25_\n\n## [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·최근 의사결정·각 에이전트 메\n- 비주얼 시스템은 '검증된 시스템'임을 증명하는 핵심 도구로 활용한다.\n- 채널 및 웹사이트 MVP에 Deep Blue/Neon 스타일을 즉시 적용하여 시각적 일관성을 확보한다.\n- Deep Blue는 신뢰를, Cyan은 행동 유도를 위해 색상을 사용한다.\n_세션: 2026-04-29T02-55_\n\n## [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·최근 의사결정·각 에이전트 메\n- 시스템 설계 방법론은 '구조화된 사고'를 판매하는 고가치 상품으로 정의한다.\n- 시각적 일관성(Deep Blue/Neon)을 통해 시스템 신뢰도를 증명하고 높은 가격 책정의 기반으로 삼는다.\n_세션: 2026-04-29T03-25_\n\n## [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·각 에이전트의 개인 목표(_a\n- 고가치 판매를 위해 '시스템적 사고방식'을 해결하는 메시지를 제공하라.\n- 핵심 포지셔닝은 '시스템 설계자'로 명확히 설정한다.\n- 고가치 상품 성공을 위해 포지셔닝과 구체적인 결과물(파이프라인)을 결합한다.\n_세션: 2026-04-29T04-04_\n\n## [2026-04-29] [수동 한 스텝 — YouTube] YouTube 에이전트의 개인 목표(_agents/youtube/goal\n- 인트로 화면에 Deep Blue/Neon 톤을 적용한다.\n- 릴스용 후크는 짧고 강렬하게 만든다.\n- 수익 극대화 포인트를 강조하여 콘텐츠를 구성한다.\n_세션: 2026-04-29T06-10_\n\n## [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·각 에이전트의 개인 목표(_a\n- 고가치 상품 판매를 위해 포지셔닝을 '사용자'에서 '시스템 설계자'로 전환한다.\n- 결과 측정을 위한 KPI 기준을 프레임워크 내에 추가한다.\n- 다음 작업은 시스템 설계자 관점에 맞춰 실행한다.\n_세션: 2026-04-29T06-39_\n\n## [2026-04-29] 일 시작하자\n- 채널 비주얼 시스템은 Deep Blue/Neon 기반으로 최종 확정한다.\n- 성공은 명확한 시스템 프레임워크와 시각적 일관성에서 비롯된다.\n- 고가치 판매를 위해 실행 방법보다 설계 방식을 가르치는 것이 핵심이다.\n_세션: 2026-04-29T07-53_\n\n## [2026-04-29] [도구 실행 — YouTube → 🔭 경쟁 채널 분석] YouTube 에이전트에게 다음 도구를 즉시 실행하\n- 시스템 설계 방법론 판매에 집중하기 위한 핵심 KPI와 포지셔닝을 최종 확정한다.\n- Deep Blue/Neon 디자인 시스템을 수익화 흐름과 일관성 있게 즉시 적용한다.\n- 경쟁사 분석보다 내부 시스템의 일관성 확보를 우선한다.\n_세션: 2026-04-29T09-07_\n\n## [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·각 에이전트의 개인 목표(_a\n- 브랜드 아이덴티티는 Deep Blue/Neon 시각 시스템을 기반으로 확립한다.\n- CTA 부분에는 Neon Cyan 색상을 반드시 사용한다.\n- 실행보다 설계 방식을 가르치는 것이 수익 극대화의 핵심이다.\n_세션: 2026-04-29T09-26_\n\n## [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·각 에이전트의 개인 목표(_a\n- 색상과 폰트 사용을 확정한다.\n- CTA 부분에 네온 색상을 집중하여 강조한다.\n_세션: 2026-04-29T09-56_\n\n## [2026-04-29] 유튜브 컨텐츠 기획하는데 미스터비스트 유튜브 1위처럼 생각해서 기획해라!\n- 콘텐츠의 핵심을 실행에서 시스템 설계로 전환한다.\n- 시청자에게 방법론 판매를 통해 '왜 그렇게 설계해야 하는지'를 교육한다.\n- 고가치 시스템 판매를 위해 시스템 설계에 집중한다.\n_세션: 2026-04-29T10-54_\n\n## [2026-04-29] 야 유튜브 기획해\n- 브랜드 아이덴티티는 Deep Blue/Neon을 기반으로 확정한다.\n- 콘텐츠 방향은 '시스템 설계자' 포지셔닝으로 전환한다.\n- 시각적 일관성을 통해 시스템 신뢰도를 확보하여 고가치 판매를 유도한다.\n_세션: 2026-04-29T11-10_\n\n## [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·각 에이전트의 개인 목표(_a\n- Hook 2를 기반으로 가장 강력한 스크립트를 확정하고 녹음을 준비한다\n- Deep Blue/Neon 비주얼 가이드라인을 즉시 적용하여 브랜드 일관성을 검증한다\n- 고가치 시스템 판매를 위해 '실행 방법'보다 '설계 방식'을 가르치는 포지셔닝을 따른다\n_세션: 2026-04-29T11-13_\n\n## [2026-04-29] [자율 사이클 — 2026-04-29] 사용자가 자리를 비웠습니다. 회사 목표·각 에이전트의 개인 목표(_a\n- 콘텐츠 포지셔닝을 '실행 방법'에서 '시스템 설계 방법론'으로 전환한다.\n- 시각적 일관성을 위해 Deep Blue/Neon Cyan 기반의 디자인 시스템을 채택한다.\n- CTA(Call to Action)",
+    "tags": [
+      "2026",
+      "시스템",
+      "세션",
+      "목표",
+      "회사",
+      "위해"
+    ],
+    "ts": 1780574071873,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718732714",
+    "text": "# 공동 목표\n# 🎯 공동 목표\n\n## 올해 핵심 목표\n- [ ] 이번년도 1000만원 벌고 싶어요~\n\n## 1개월 내 단기 목표\n- 일단 유튜브 구독자 천명 만들고 싶어요\n\n## 지금 가장 필요한 것\n- ㄴ\n\n> 모든 에이전트가 매번 이 파일을 읽고 일합니다. 회사 설정 모달에서 폼으로도 수정 가능.",
+    "tags": [
+      "목표",
+      "공동",
+      "싶어요",
+      "1000",
+      "올해",
+      "핵심"
+    ],
+    "ts": 1780574071873,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805740718734990",
+    "text": "# 회사 정체성\n# 🏢 회사 정체성\n\n- **회사 이름:** ㅁㄴㅇㅁㅇ\n- **한 줄 소개:** 모바일 앱~~~\n- **타깃 청중:** 시니어를 위한\n- **브랜드 톤:** _자가학습이 채울 예정_\n- **금기:** _자가학습이 채울 예정_\n\n> 이 파일은 사용자가 직접 편집하거나, 작업하면서 자가학습으로 채워집니다.\n> 채팅 사이드바의 \"👔 회사명\" 뱃지를 누르면 폼으로 수정할 수도 있어요.",
+    "tags": [
+      "회사",
+      "정체성",
+      "자가학습이",
+      "채울",
+      "예정",
+      "이름"
+    ],
+    "ts": 1780574071873,
+    "category": "design",
+    "source": "me",
+    "verified": true
   }
 ]
