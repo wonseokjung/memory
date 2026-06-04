@@ -1800,38 +1800,6 @@
     "verified": true
   },
   {
-    "id": "n17805740718727142",
-    "text": "# 텔레그램 보고\n# 📨 텔레그램 보고\n\n다른 도구가 보고를 메신저로 보낼 때 호출하는 통신선이에요. 이 도구를 직접 [▶ 실행]하면 **연결 테스트 메시지**를 보냅니다 — 받으면 OK, 안 오면 토큰/chat_id 다시 확인.\n\n## 어떻게 도와주나요?\n- ✅ 연결 확인용 핑 (아무 인자 없이 실행)\n- 📨 다른 도구(내 영상 체크, 경쟁 채널 분석 등)가 자동 보고를 보내는 채널\n- 🔕 토큰이나 chat_id가 비어있으면 다른 도구들은 그냥 텔레그램 단계만 건너뜁니다\n\n## 봇 만드는 법 (한 번만)\n1. 텔레그램에서 [@BotFather](https://t.me/BotFather) 검색 → `/newbot` → 이름·핸들 정하면 `123:ABC...` 형식 토큰을 줍니다\n2. 새로 만든 봇한테 아무 메시지나 한 번 보내기 (`/start` 권장)\n3. 브라우저에서 `https://api.telegram.org/bot<TOKEN>/getUpdates` 열어서 `chat.id` 확인\n4. `youtube_account.json`의 `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID`에 입력\n5. 이 도구 [▶ 실행] → 핑 메시지 받으면 끝\n\n## 다른 도구에서 어떻게 쓰이나?\n- \"내 영상 체크\" → 떡상/부진 요약을 자동 푸시\n- \"경쟁 채널 분석\" → 다음 액션 브리프 자동 푸시\n- 향후 트렌드 스나이퍼/오토 플래너 결과도 같은 라인을 통해 보냅니다",
-    "tags": [
-      "다른",
-      "chat",
-      "텔레그램",
-      "실행",
-      "채널",
-      "자동"
-    ],
-    "ts": 1780574071873,
-    "category": "marketing",
-    "source": "me",
-    "verified": true
-  },
-  {
-    "id": "n17805740718737931",
-    "text": "# 트렌드 스나이퍼\n# 🎯 트렌드 스나이퍼\n\n유튜브 Data API로 최근 30일 떡상 영상을 수집하고, 로컬 LLM(Ollama/LM Studio)으로 패턴을 분석해 다음 영상 기획안(제목·썸네일·후크)을 도출합니다.\n\n## 필요한 것\n- Python 3 + `pip install google-api-python-client requests`\n- YouTube Data API v3 키 ([발급 안내](https://console.cloud.google.com/))\n- 로컬 LLM (Ollama 또는 LM Studio)이 켜져 있어야 함\n\n## 실행 방법\n패널의 [▶ 실행] 버튼을 누르거나 터미널에서:\n```bash\npython trend_sniper.py\n```\n\n## 출력\n같은 폴더에 `trend_sniper_report.md` 누적 저장.",
-    "tags": [
-      "api",
-      "python",
-      "트렌드",
-      "스나이퍼",
-      "data",
-      "로컬"
-    ],
-    "ts": 1780574071873,
-    "category": "marketing",
-    "source": "me",
-    "verified": true
-  },
-  {
     "id": "n17805740718734564",
     "text": "# 계정 / 채널 (공유 설정)\n# 🔑 계정 / 채널 (공유 설정)\n\n여기 한 번만 채워두면 다른 모든 YouTube 도구(트렌드 스나이퍼·내 영상 체크·댓글 수집기·경쟁 채널 분석·텔레그램 보고)가 이 값을 그대로 가져다 씁니다. 매번 도구마다 같은 키를 넣지 않아도 돼요.\n\n## 채워야 하는 항목\n\n| 키 | 설명 | 채우는 법 |\n|---|---|---|\n| `YOUTUBE_API_KEY` | YouTube Data API v3 키 | [console.cloud.google.com](https://console.cloud.google.com/) → 프로젝트 → \"YouTube Data API v3\" 사용 설정 → 사용자 인증 정보 → API 키. 무료 한도 충분(하루 10,000 단위). |\n| `MY_CHANNEL_HANDLE` | 본인 채널 @핸들 | 예: `@mychannel`. 핸들 또는 ID 둘 중 하나만 채우면 됨. |\n| `MY_CHANNEL_ID` | 본인 채널 ID (UCxxxx) | 핸들로 못 잡힐 때 백업용. studio.youtube.com → 설정 → 채널에서 확인. |\n| `WATCHED_CHANNELS` | 댓글 수집 대상 채널 핸들 목록 | 예: `[\"@channel_a\", \"@channel_b\"]`. 댓글 수집기가 이 채널들 최근 영상의 댓글을 메모리로 가져옵니다. |\n| `COMPETITOR_CHANNELS` | 경쟁 채널 분석 대상 | 같은 형식. 경쟁 채널 분석 도구가 패턴을 뽑아 다음 액션을 추천합니다. |\n| `TELEGRAM_BOT_TOKEN` | 텔레그램 봇 토큰 | @BotFather에서 /newbot으로 봇 만들고 받은 `123:ABC...` 형식 토큰. 비워두면 보고 알림 OFF. |\n| `TELEGRAM_CHAT_ID` | 본인 chat_id | 봇한테 아무 메시지 보낸 뒤 `https://api.telegram.org/bot<TOKEN>/getUpdates` 열어서 `chat.id` 확인. |\n| `OLLAMA_URL` | 로컬 LLM 주소 | 기본 `http://127.0.0.1:11434`. LM Studio면 보통 `http://127.0.0.1:1234`. |\n| `MODEL` | 분석에 쓸 모델 이름 | 비워두면 첫 번째로 발견된 모델을 자동 선택. |\n\n## 실행하면?\n입력값이 제대로 들어왔는지 확인 리포트만 출력합니다 (실제 데이터 호출 X). 키가 비어있으면 알려줍니다.\n\n## 어디 저장되나?\n이 폴더의 `youtube_account.json` 한 파일에. 브레인 폴더 안이라 GitHub 백업도 같이 됩니다.",
     "tags": [
@@ -1841,22 +1809,6 @@
       "설정",
       "channel",
       "댓글"
-    ],
-    "ts": 1780574071873,
-    "category": "marketing",
-    "source": "me",
-    "verified": true
-  },
-  {
-    "id": "n17805740718739562",
-    "text": "# 1인 기업 OS — 자가 매뉴얼\n# 🧬 1인 기업 OS — 자가 매뉴얼\n\n## 이 폴더는 무엇인가요?\n당신의 1인 기업의 두뇌입니다. 7명의 AI 에이전트가 여기서 일합니다.\n\n## 폴더 구조\n- `_shared/` — 모든 에이전트가 매번 읽는 공동 메모리\n  - `identity.md` — 회사 정체성 (이름, 톤, 가치)\n  - `goals.md` — 목표\n  - `decisions.md` — 의사결정 로그 (자가학습이 자동 누적)\n  - `_system.md` — 이 파일\n- `_agents/<id>/` — 각 에이전트 개인 공간\n  - `memory.md` — 자가학습 (자동, append-only)\n  - `prompt.md` — 페르소나 디테일 (사용자가 편집)\n  - `config.md` — API 키·시크릿 (`.gitignore`로 보호)\n- `sessions/<ts>/` — 세션별 산출물 (자동)\n- `_cache/` — API 응답 캐시 (sync 제외)\n\n## 메모리 위계 (충돌 시 우선순위)\n1. `decisions.md` — 가장 강한 신뢰\n2. `identity.md`\n3. `goals.md`\n4. 개인 메모리\n5. 지식 베이스 (`10_Wiki/`)\n\n## 다른 PC로 옮길 때\n1. 새 PC에 Connect AI 설치\n2. 👔 모드 ON → \"📥 다른 PC에서 가져오기\" 선택\n3. GitHub URL 입력 → 자동 clone\n4. 끝.\n\n## 동기화 정책\n- `_shared/`, `_agents/*/memory.md`, `_agents/*/prompt.md`, `sessions/` → git sync ✅\n- `_agents/*/config.md`, `_cache/` → git sync ❌ (시크릿·캐시)\n\n## 7명의 에이전트\n- 🧭 **CEO** (Chief Executive Agent): 오케스트레이션, 작업 분해, 종합 판단, 다음 액션 결정\n- 📺 **YouTube** (Head of YouTube): 유튜브 채널 운영, 영상 기획서(제목·후크·구조), 트렌드 분석, 썸네일 브리프, 업로드 메타데이터, 시청자 유지율 전략\n- 📷 **Instagram** (Head of Instagram): 인스타그램 릴스/피드 콘셉트, 캡션, 해시태그 전략, 게시 시간, 스토리, 팔로워 인게이지먼트\n- 🎨 **Designer** (Lead Designer): 브랜드 디자인 브리프(컬러·타이포·레퍼런스), 썸네일 컨셉 3안, 비주얼 시스템, 디자인 가이드\n- 💻 **Developer** (Lead Engineer): 코드, 자동화 스크립트, API 통합, 웹사이트/봇, 데이터 파이프라인, 디버깅\n- 💰 **Business** (Head of Business): 수익화 모델, 가격 전략, 시장·경쟁 분석, ROI/KPI 설계, 비즈니스 의사결정\n- 📱 **Secretary** (Personal Assistant): 일정·할 일 관리, 다른 에이전트 작업 요약·텔레그램 보고, 데일리 브리핑, 알림",
-    "tags": [
-      "자동",
-      "agents",
-      "메모리",
-      "에이전트",
-      "api",
-      "sync"
     ],
     "ts": 1780574071873,
     "category": "marketing",
@@ -1928,7 +1880,55 @@
     "verified": true
   },
   {
-    "id": "n17805744083533701",
+    "id": "n17805745560392720",
+    "text": "# 텔레그램 보고\n# 📨 텔레그램 보고\n\n다른 도구가 보고를 메신저로 보낼 때 호출하는 통신선이에요. 이 도구를 직접 [▶ 실행]하면 **연결 테스트 메시지**를 보냅니다 — 받으면 OK, 안 오면 토큰/chat_id 다시 확인.\n\n## 어떻게 도와주나요?\n- ✅ 연결 확인용 핑 (아무 인자 없이 실행)\n- 📨 다른 도구(내 영상 체크, 경쟁 채널 분석 등)가 자동 보고를 보내는 채널\n- 🔕 토큰이나 chat_id가 비어있으면 다른 도구들은 그냥 텔레그램 단계만 건너뜁니다\n\n## 봇 만드는 법 (한 번만)\n1. 텔레그램에서 [@BotFather](https://t.me/BotFather) 검색 → `/newbot` → 이름·핸들 정하면 `123:ABC...` 형식 토큰을 줍니다\n2. 새로 만든 봇한테 아무 메시지나 한 번 보내기 (`/start` 권장)\n3. 브라우저에서 `https://api.telegram.org/bot<TOKEN>/getUpdates` 열어서 `chat.id` 확인\n4. `youtube_account.json`의 `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID`에 입력\n5. 이 도구 [▶ 실행] → 핑 메시지 받으면 끝\n\n## 다른 도구에서 어떻게 쓰이나?\n- \"내 영상 체크\" → 떡상/부진 요약을 자동 푸시\n- \"경쟁 채널 분석\" → 다음 액션 브리프 자동 푸시\n- 향후 트렌드 스나이퍼/오토 플래너 결과도 같은 라인을 통해 보냅니다",
+    "tags": [
+      "다른",
+      "chat",
+      "텔레그램",
+      "실행",
+      "채널",
+      "자동"
+    ],
+    "ts": 1780574071873,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805745560395247",
+    "text": "# 트렌드 스나이퍼\n# 🎯 트렌드 스나이퍼\n\n유튜브 Data API로 최근 30일 떡상 영상을 수집하고, 로컬 LLM(Ollama/LM Studio)으로 패턴을 분석해 다음 영상 기획안(제목·썸네일·후크)을 도출합니다.\n\n## 필요한 것\n- Python 3 + `pip install google-api-python-client requests`\n- YouTube Data API v3 키 ([발급 안내](https://console.cloud.google.com/))\n- 로컬 LLM (Ollama 또는 LM Studio)이 켜져 있어야 함\n\n## 실행 방법\n패널의 [▶ 실행] 버튼을 누르거나 터미널에서:\n```bash\npython trend_sniper.py\n```\n\n## 출력\n같은 폴더에 `trend_sniper_report.md` 누적 저장.",
+    "tags": [
+      "api",
+      "python",
+      "트렌드",
+      "스나이퍼",
+      "data",
+      "로컬"
+    ],
+    "ts": 1780574071873,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805745560391647",
+    "text": "# 1인 기업 OS — 자가 매뉴얼\n# 🧬 1인 기업 OS — 자가 매뉴얼\n\n## 이 폴더는 무엇인가요?\n당신의 1인 기업의 두뇌입니다. 7명의 AI 에이전트가 여기서 일합니다.\n\n## 폴더 구조\n- `_shared/` — 모든 에이전트가 매번 읽는 공동 메모리\n  - `identity.md` — 회사 정체성 (이름, 톤, 가치)\n  - `goals.md` — 목표\n  - `decisions.md` — 의사결정 로그 (자가학습이 자동 누적)\n  - `_system.md` — 이 파일\n- `_agents/<id>/` — 각 에이전트 개인 공간\n  - `memory.md` — 자가학습 (자동, append-only)\n  - `prompt.md` — 페르소나 디테일 (사용자가 편집)\n  - `config.md` — API 키·시크릿 (`.gitignore`로 보호)\n- `sessions/<ts>/` — 세션별 산출물 (자동)\n- `_cache/` — API 응답 캐시 (sync 제외)\n\n## 메모리 위계 (충돌 시 우선순위)\n1. `decisions.md` — 가장 강한 신뢰\n2. `identity.md`\n3. `goals.md`\n4. 개인 메모리\n5. 지식 베이스 (`10_Wiki/`)\n\n## 다른 PC로 옮길 때\n1. 새 PC에 Connect AI 설치\n2. 👔 모드 ON → \"📥 다른 PC에서 가져오기\" 선택\n3. GitHub URL 입력 → 자동 clone\n4. 끝.\n\n## 동기화 정책\n- `_shared/`, `_agents/*/memory.md`, `_agents/*/prompt.md`, `sessions/` → git sync ✅\n- `_agents/*/config.md`, `_cache/` → git sync ❌ (시크릿·캐시)\n\n## 7명의 에이전트\n- 🧭 **CEO** (Chief Executive Agent): 오케스트레이션, 작업 분해, 종합 판단, 다음 액션 결정\n- 📺 **YouTube** (Head of YouTube): 유튜브 채널 운영, 영상 기획서(제목·후크·구조), 트렌드 분석, 썸네일 브리프, 업로드 메타데이터, 시청자 유지율 전략\n- 📷 **Instagram** (Head of Instagram): 인스타그램 릴스/피드 콘셉트, 캡션, 해시태그 전략, 게시 시간, 스토리, 팔로워 인게이지먼트\n- 🎨 **Designer** (Lead Designer): 브랜드 디자인 브리프(컬러·타이포·레퍼런스), 썸네일 컨셉 3안, 비주얼 시스템, 디자인 가이드\n- 💻 **Developer** (Lead Engineer): 코드, 자동화 스크립트, API 통합, 웹사이트/봇, 데이터 파이프라인, 디버깅\n- 💰 **Business** (Head of Business): 수익화 모델, 가격 전략, 시장·경쟁 분석, ROI/KPI 설계, 비즈니스 의사결정\n- 📱 **Secretary** (Personal Assistant): 일정·할 일 관리, 다른 에이전트 작업 요약·텔레그램 보고, 데일리 브리핑, 알림",
+    "tags": [
+      "자동",
+      "agents",
+      "메모리",
+      "에이전트",
+      "api",
+      "sync"
+    ],
+    "ts": 1780574071873,
+    "category": "marketing",
+    "source": "me",
+    "verified": true
+  },
+  {
+    "id": "n17805745560397514",
     "text": "음",
     "tags": [],
     "ts": 1780574408354,
